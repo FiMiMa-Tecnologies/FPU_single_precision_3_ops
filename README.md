@@ -17,3 +17,10 @@ fpu_NOME_SUB_BLOCO.v
 
 Ex:
 fpu_mult.v
+
+# Padronização de nomes de READMEs de sub-blocos:
+
+README_fpu_NOME_SUB_BLOCO.v
+
+Ex:
+README_fpu_mult.md
