@@ -27,13 +27,13 @@ README_fpu_mult.md
 
 
 # Padronização da nomenclatura dos sinais de entrada:
-A_s = Sinal de A
-A_m = Mantissa de A
-A_e = Expoente de A
+a_s = Sinal de A
+a_m = Mantissa de A
+a_e = Expoente de A
 
-B_s = Sinal de B
-B_m = Mantissa de B
-B_e = Expoente de B
+b_s = Sinal de B
+b_m = Mantissa de B
+b_e = Expoente de B
 
 # Árvore inicial do projeto:
 
