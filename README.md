@@ -24,3 +24,22 @@ README_fpu_NOME_SUB_BLOCO.v
 
 Ex:
 README_fpu_mult.md
+
+# Árvore inicial do projeto:
+
+├── diagrams
+│   └── insira_aqui
+├── docs
+│   └── insira_aqui
+├── images
+│   └── insira_aqui
+├── makefiles
+│   └── insira_aqui
+├── README.md
+├── scripts
+│   └── insira_aqui
+└── src
+    └── multiplier
+        ├── multiplier.v
+        └── referencia_de_projeto.jpg
+        └── README_fpu_mult.md
