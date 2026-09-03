@@ -7,8 +7,11 @@
 # Caminhos do projeto
 MAKEFILE_DIR := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
 PROJECT_ROOT := $(abspath $(MAKEFILE_DIR)/../..)
-SRC_DIR      := $(PROJECT_ROOT)/src/multiplier
-BUILD_DIR    := $(PROJECT_ROOT)/build/multiplier
+SRC_DIR      := $(PROJECT_ROOT)/src/$(PROJECT_NAME)
+BUILD_DIR    := $(PROJECT_ROOT)/build/$(PROJECT_NAME)
+
+# Edite aqui:
+PROJECT_NAME := Multiplier
 
 # Arquivos
 SRC       := $(SRC_DIR)/multiplier.v
