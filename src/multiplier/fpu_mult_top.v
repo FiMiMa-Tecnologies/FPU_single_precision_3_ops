@@ -15,7 +15,8 @@ module fpu_mult_top (
     input   wire    [I_WID:0]   a_m, b_m,
 
     //Saídas:
-    output wire     [F_WID:0]   result
+    output wire     [F_WID:0]   result,
+    output wire                 guard, round, sticky, overflow, underflow
 );
 
 wire [R_WID:0]  r_w;
