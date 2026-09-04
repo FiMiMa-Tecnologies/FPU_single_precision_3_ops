@@ -19,28 +19,28 @@ always@(posedge clk or negedge rst)
     begin
         if(!rst)
             begin
-                overflow  = 1'b0;
-                underflow = 1'b0;
+                overflow  <= 1'b0;
+                underflow <= 1'b0;
             end
         else
         begin
             if(exp_final[8]==1)
                 begin
-                    overflow  = 1'b1;
-                    underflow = 1'b0;
+                    overflow  <= 1'b1;
+                    underflow <= 1'b0;
                 end
 
             else
             if((8'b10000010 <= exp_final) && (exp_final <= 8'b11111111))
                 begin
-                    overflow  = 1'b0;
-                    underflow = 1'b1;
+                    overflow  <= 1'b0;
+                    underflow <= 1'b1;
                 end
 
             else
                 begin
-                    overflow  = 1'b0;
-                    underflow = 1'b0;
+                    overflow  <= 1'b0;
+                    underflow <= 1'b0;
                 end
         end
     end

@@ -2,13 +2,14 @@
 
 set -euo pipefail
 
-# Diretório onde este script está localizado
+# Diretório onde este script está localizado:
+# <projeto>/scripts/mult
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# scripts/ fica diretamente abaixo da raiz do projeto
-PROJECT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+# Retorna dois níveis para alcançar a raiz do projeto
+PROJECT_ROOT="$(cd "${SCRIPT_DIR}/../.." && pwd)"
 
-MAKEFILE="${PROJECT_ROOT}/makefiles/Multiplier/Makefile"
+MAKEFILE="${PROJECT_ROOT}/makefiles/mult/Makefile"
 
 if [[ ! -f "${MAKEFILE}" ]]; then
     echo "ERRO: Makefile do Multiplier não encontrado:"

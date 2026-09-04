@@ -8,7 +8,7 @@ parameter   WIDTH = 24,
 
 // I/Os
 logic   [I_WID:0]   a_m, b_m;
-logic               clk, rst;
+logic               clk = 0, rst;
 logic   [R_WID:0]   r_mant_s;
 logic               done;
 
@@ -18,14 +18,17 @@ logic               done;
 
 int pass = 0;
 int fail = 0;
+logic [R_WID:0] exp_mult;
 
+//int op_n = 8388608;
+int op_n = 1000;
+
+fpu_mult_24x24 dut (.*);
 
 always #5 clk = !clk;
 
 task reset;
     begin
-        rst = 1;
-        #5;
         rst = 0;
         #10;
         rst = 1;
@@ -36,15 +39,15 @@ endtask
 task mult_teste;
     integer i;
     integer j;
-
     begin
-        for(i = 1; i < (8388608); i = i + 1)
+        for(i = 1; i < (op_n); i = i + 1)
             begin
                 a_m = i;
-                for(j = 1; j < (8388608); j = j + 1)
+                for(j = 1; j < (op_n); j = j + 1)
                     begin
                         b_m = j;
-                        #5;
+                        @(posedge clk);
+                        #1;
                         check_op();
                     end
             end
@@ -58,22 +61,14 @@ initial
         #10;
     end
 
-task div; $display("+--------------------------------------------+"); endtask
+task div; $display("+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+"); endtask
 
 task header;
     begin
         div();
-        $display("|             Multiplicação           |");
+        $display("|                                                                     Multiplicação                                                                                           |");
         div();
-        $display("| A | B | R |");
-        div();
-    end
-endtask
-
-task monitor;
-    begin
-        $monitor("| %024b | %024b |", 
-        $time, D, SL, SR, clk, rst, S, Q);
+        $display("|           A             |           B             ||                 R_expected                       |                    R_mant_s                      ||  done || STATUS |");
     end
 endtask
 
@@ -98,17 +93,32 @@ begin
                         a_m,
                         b_m,
                         exp_mult,
-                        r_mant_s,
+                        dut.r_parc,
+                        //r_mant_s,
                         done,
                     );
 end
 endtask
 
+// Wire declarations:
+logic  imp_bit = 1;
+logic  [T_WID:0] r_s;
+logic  [R_WID:0] r_parc;
+
+//Signal Attach:
+logic  [T_WID:0] a_m_s;
+logic  [T_WID:0] b_m_s;
+
+assign  a_m_s[23]      = imp_bit;
+assign  a_m_s[22:0]    = a_m;
+
+assign  b_m_s[23]      = imp_bit;
+assign  b_m_s[22:0]    = b_m;
+
 task check_op;
         begin
-            exp_mult = {1,{a_m * b_m}};
-
-            assert ((exp_mult == r_mant_s)&&(done))
+            exp_mult = (a_m_s * b_m_s);
+            assert ((exp_mult == r_mant_s)&&(done==1))
                 begin
                     div();
                     pass++;
@@ -123,21 +133,64 @@ task check_op;
         end
 endtask
 
+task footer;
+    begin
+
+        div();
+
+        $display(
+            "| RESULTADO FINAL                                                                                                                                                             |"
+        );
+
+        div();
+
+        $display(
+            "| PASS  = %-05d                                                                                                                                                               |",
+            pass
+        );
+
+        $display(
+            "| FAIL  = %-05d                                                                                                                                                               |",
+            fail
+        );
+
+        $display(
+            "| TOTAL = %-05d                                                                                                                                                               |",
+            pass + fail
+        );
+
+        div();
+
+
+        if(fail == 0)
+            $display(
+                "| STATUS FINAL: PASS                                                                                                                                                          |"
+            );
+        else
+            $display(
+                "| STATUS FINAL: FAIL                                                                                                                                                          |"
+            );
+
+        div();
+
+    end
+endtask
+
 initial
     begin
         reset();
         header();
-
         #10;
-
         mult_teste();
-
         #10;
-
-        //footer();
-
+        footer();
         $finish;
+    end
 
+initial
+    begin
+        $dumpfile("dump.vcd");
+        $dumpvars(0, dut);
     end
 
 endmodule
