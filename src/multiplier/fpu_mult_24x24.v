@@ -27,7 +27,6 @@ wire   [T_WID:0] b_m_s;
 wire enable;
 reg  start_op;
 
-
 assign  a_m_s[23]      = imp_bit;
 assign  a_m_s[22:0]    = a_m;
 
@@ -54,18 +53,6 @@ always@(*)
         endcase
     end 
 
-/*
-always@(posedge clk or negedge rst)
-    begin
-        if(!rst)                  done     <= 1'b0;
-        else
-            begin
-                if(start_op == 1) done     <= 1'b1;
-                else              done     <= 1'b0;
-            end
-    end
-*/
-
 always@(posedge clk or negedge rst)
     begin
         if(!rst)    
@@ -87,17 +74,5 @@ always@(posedge clk or negedge rst)
                     end
             end
     end
-
-/*
-always@(posedge clk or negedge rst)
-    begin
-        if(!rst) r_mant_s <= 0;
-        else
-            begin
-                if(done == 1) r_mant_s <= r_parc;
-                else          r_mant_s <= {R_WID{1'b0}};
-            end 
-    end
-*/
 
 endmodule: fpu_mult_24x24

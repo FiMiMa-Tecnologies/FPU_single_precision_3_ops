@@ -1,4 +1,4 @@
-module fpu_signal (
+module fpu_mult_signal (
     input   wire a_s, b_s,
     output  wire sig_final
 );

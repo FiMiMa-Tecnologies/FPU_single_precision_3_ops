@@ -1,16 +1,17 @@
-module fpu_norm #(
+`timescale 1ns/1ps
+
+module fpu_mult_norm #(
     parameter   WIDTH = 24,
                 T_WID = (WIDTH - 1),
                 I_WID = (T_WID -1),
                 R_WID = ((WIDTH*2)-1)
 )(
     input  wire    [R_WID:0]    n_anorm,
-    input  wire                 qtd_s,
-    output wire    [I_WID:0]    r_parc_s,
+    output wire    [I_WID:0]    n_norm,
     output reg                  guard, round, sticky
 );
 
-reg [T_WID:0] shift_reg;
+wire [T_WID:0] shift_reg;
 
 always@(*)
     begin
@@ -30,11 +31,9 @@ always@(*)
             end    
     end
 
-always@(*)
-    begin
-        shift_reg = n_anorm >> 24;
-    end
+// Seleciona o significando de 24 bits conforme o bit de estouro.
+assign shift_reg = n_anorm[R_WID] ? (n_anorm >> WIDTH)
+                                     : (n_anorm >> T_WID);
+assign n_norm  = shift_reg[I_WID:0];
 
-assign r_parc_s  = shift_reg[I_WID:0];
-
-endmodule: fpu_mult
+endmodule: fpu_mult_norm

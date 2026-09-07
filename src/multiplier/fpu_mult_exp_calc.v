@@ -1,4 +1,4 @@
-module fpu_exp_calc #(
+module fpu_mult_exp_calc #(
     parameter   EXP_WID = 8,
                 E_WID   = (EXP_WID - 1)
 )(
