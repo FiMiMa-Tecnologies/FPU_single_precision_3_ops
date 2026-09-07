@@ -6,8 +6,14 @@ parameter   WIDTH = 24,
             I_WID = (T_WID -1),
             R_WID = ((WIDTH*2)-1);
 
+localparam  ADD = 2'b00,
+            SUB = 2'b01,
+            MUL = 2'b10,
+            RES = 2'b11;
+
 // I/Os
 logic   [I_WID:0]   a_m, b_m;
+logic   [1:0]       op;
 logic               clk = 0, rst;
 logic   [R_WID:0]   r_mant_s;
 logic               done;
@@ -21,7 +27,7 @@ int fail = 0;
 logic [R_WID:0] exp_mult;
 
 //int op_n = 8388608;
-int op_n = 1000;
+int op_n = 3000;
 
 fpu_mult_24x24 dut (.*);
 
@@ -30,23 +36,56 @@ always #5 clk = !clk;
 task reset;
     begin
         rst = 0;
+        op = ADD;
         #10;
         rst = 1;
         #10;
     end
 endtask
 
+task st_op;
+    begin
+        @(negedge clk);
+        op = MUL;
+
+        @(posedge clk);
+        #1;
+
+        check_op();
+
+        @(negedge clk);
+        op = ADD;
+
+        @(posedge clk);
+        #1;
+    end
+endtask
+
+/*
 task mult_teste;
+begin
+    a_m = 4;
+    b_m = 2;
+    st_op();
+    check_op();
+end
+endtask
+*/
+
+task mult_teste;
+
     integer i;
     integer j;
+
     begin
-        for(i = 1; i < (op_n); i = i + 1)
+
+        for(i = 1; i < op_n; i = i + 1)
             begin
                 a_m = i;
-                for(j = 1; j < (op_n); j = j + 1)
+                for(j = 1; j < op_n; j = j + 1)
                     begin
                         b_m = j;
-                        @(posedge clk);
+                        st_op();
                         #1;
                         check_op();
                     end
@@ -61,21 +100,24 @@ initial
         #10;
     end
 
-task div; $display("+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+"); endtask
+task div; $display("+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+"); endtask
 
 task header;
     begin
         div();
-        $display("|                                                                     Multiplicação                                                                                           |");
+        $display("|                                                                                  Multiplicação                                                                                                 |");
         div();
-        $display("|           A             |           B             ||                 R_expected                       |                    R_mant_s                      ||  done || STATUS |");
+        $display("| op_s | clk | rst |            A            |           B             ||                 R_expected                       |                    R_mant_s                      ||  done || STATUS |");
     end
 endtask
 
-task pass_tk;
+task monitor_tk;
 begin
-                    $display(
-                    "| %023b | %023b || %048b | %048b ||   %01b   ||  PASS  |",
+                    $monitor(
+                    "|  %02b  |  %01b  |  %01b  | %023b | %023b || %048b | %048b ||   %01b   ||",
+                        op,
+                        clk,
+                        rst,
                         a_m,
                         b_m,
                         exp_mult,
@@ -86,15 +128,33 @@ end
 endtask
 
 
-task fail_tk;
+task pass_tk;
 begin
                     $display(
-                    "| %023b | %023b || %048b | %048b ||   %01b   ||  FAIL  |",
+                    "|  %02b  |  %01b  |  %01b  | %023b | %023b || %048b | %048b ||   %01b   ||  PASS  |",
+                        op,
+                        clk,
+                        rst,
                         a_m,
                         b_m,
                         exp_mult,
-                        dut.r_parc,
-                        //r_mant_s,
+                        r_mant_s,
+                        done,
+                    );
+end
+endtask
+
+task fail_tk;
+begin
+                    $display(
+                    "|  %02b  |  %01b  |  %01b  | %023b | %023b || %048b | %048b ||   %01b   ||  FAIL  |",
+                        op,
+                        clk,
+                        rst,
+                        a_m,
+                        b_m,
+                        exp_mult,
+                        r_mant_s,
                         done,
                     );
 end
@@ -118,11 +178,21 @@ assign  b_m_s[22:0]    = b_m;
 task check_op;
         begin
             exp_mult = (a_m_s * b_m_s);
-            assert ((exp_mult == r_mant_s)&&(done==1))
+            assert ((exp_mult == r_mant_s)&&(done==1)&&(op==MUL))
                 begin
                     div();
                     pass++;
                     pass_tk();
+                end
+            else
+            assert ((exp_mult == r_mant_s)&&(done==0)&&(op==MUL))
+                begin
+                    div();
+                end
+            else
+            assert ((exp_mult != r_mant_s)&&(done==0)&&(op==ADD))
+                begin
+                    div();
                 end
             else
                 begin
@@ -139,23 +209,23 @@ task footer;
         div();
 
         $display(
-            "| RESULTADO FINAL                                                                                                                                                             |"
+            "| RESULTADO FINAL                                                                                                                                                                                |"
         );
 
         div();
 
         $display(
-            "| PASS  = %-05d                                                                                                                                                               |",
+            "| PASS  = %-05d                                                                                                                                                                                  |",
             pass
         );
 
         $display(
-            "| FAIL  = %-05d                                                                                                                                                               |",
+            "| FAIL  = %-05d                                                                                                                                                                                  |",
             fail
         );
 
         $display(
-            "| TOTAL = %-05d                                                                                                                                                               |",
+            "| TOTAL = %-05d                                                                                                                                                                                  |",
             pass + fail
         );
 
@@ -164,11 +234,11 @@ task footer;
 
         if(fail == 0)
             $display(
-                "| STATUS FINAL: PASS                                                                                                                                                          |"
+                "| STATUS FINAL: PASS                                                                                                                                                                             |"
             );
         else
             $display(
-                "| STATUS FINAL: FAIL                                                                                                                                                          |"
+                "| STATUS FINAL: FAIL                                                                                                                                                                            |"
             );
 
         div();
@@ -178,8 +248,9 @@ endtask
 
 initial
     begin
-        reset();
         header();
+        //monitor_tk();
+        reset();
         #10;
         mult_teste();
         #10;
@@ -189,6 +260,7 @@ initial
 
 initial
     begin
+        #10000000000000;
         $dumpfile("dump.vcd");
         $dumpvars(0, dut);
     end

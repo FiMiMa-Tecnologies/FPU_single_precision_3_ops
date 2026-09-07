@@ -1,6 +1,24 @@
 # ============================================================
-# Arquivos de simulação
+# Simulação Verilog / SystemVerilog
 # ============================================================
 
-# Waveforms VCD
+# Waveforms
 *.vcd
+*.fst
+*.lxt
+*.lxt2
+
+# Icarus Verilog
+*.vvp
+
+# Verilator
+obj_dir/
+obj_dir_cov/
+
+# Logs
+*.log
+
+# Temporários
+*.tmp
+*.swp
+*~
