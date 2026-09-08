@@ -1,0 +1,4904 @@
+VCD info: dumpfile fpu_tb.vcd opened for output.
+
+==================== 1000 RANDOM ADD TESTS ====================
+[FAIL] op=00 case=25 latency=8
+       A        = cf17d16d  (-2.547085e+09)
+       B        = c2e5295a  (-1.145808e+02)
+       REF(real)= -2.547085e+09
+       expected = cf17d16d
+       result   = cf17d16e
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=35 latency=8
+       A        = 491c509d  (6.402658e+05)
+       B        = 3cf79eb4  (3.022704e-02)
+       REF(real)= 6.402658e+05
+       expected = 491c509d
+       result   = 491c509e
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=46 latency=8
+       A        = 3b2e8d69  (2.663458e-03)
+       B        = 419824fb  (1.901806e+01)
+       REF(real)= 1.902072e+01
+       expected = 41982a6f
+       result   = 41982a70
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=81 latency=8
+       A        = 399fbde5  (3.046833e-04)
+       B        = 3685479c  (3.972045e-06)
+       REF(real)= 3.086553e-04
+       expected = 39a1d303
+       result   = 39a1d304
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=98 latency=8
+       A        = bbca91ea  (-6.181945e-03)
+       B        = c0ba9d54  (-5.831705e+00)
+       REF(real)= -5.837887e+00
+       expected = c0bacff8
+       result   = c0bacff9
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=00 : 100/1000
+[FAIL] op=00 case=101 latency=8
+       A        = 4a54ede5  (3.488633e+06)
+       B        = 435d5aa5  (2.213541e+02)
+       REF(real)= 3.488855e+06
+       expected = 4a54f15a
+       result   = 4a54f15b
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=108 latency=8
+       A        = b8ae4c60  (-8.311193e-05)
+       B        = 372d9aac  (1.034762e-05)
+       REF(real)= -7.276431e-05
+       expected = b898990a
+       result   = b898990b
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=115 latency=8
+       A        = c874b052  (-2.505613e+05)
+       B        = c1bc0f77  (-2.350755e+01)
+       REF(real)= -2.505848e+05
+       expected = c874b632
+       result   = c874b633
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=120 latency=9
+       A        = 34ab95f1  (3.196033e-07)
+       B        = 34878840  (2.524484e-07)
+       REF(real)= 5.720517e-07
+       expected = 35198f18
+       result   = 35198f19
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=121 latency=8
+       A        = bdf89f6f  (-1.213978e-01)
+       B        = c0416fe9  (-3.022455e+00)
+       REF(real)= -3.143853e+00
+       expected = c04934e4
+       result   = c04934e5
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=137 latency=9
+       A        = 382155ef  (3.846542e-05)
+       B        = b725821b  (-9.865059e-06)
+       REF(real)= 2.860036e-05
+       expected = 37efead0
+       result   = 37efead1
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=145 latency=8
+       A        = 386fd1be  (5.717738e-05)
+       B        = 337bd581  (5.863467e-08)
+       REF(real)= 5.723601e-05
+       expected = 387010b3
+       result   = 387010b4
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=157 latency=9
+       A        = 4c868627  (7.052934e+07)
+       B        = cb554156  (-1.397589e+07)
+       REF(real)= 5.655344e+07
+       expected = 4c57bbf8
+       result   = 4c57bbf9
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=182 latency=8
+       A        = c5061019  (-2.145006e+03)
+       B        = c87c6062  (-2.584335e+05)
+       REF(real)= -2.605785e+05
+       expected = c87e78a2
+       result   = c87e78a3
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=193 latency=8
+       A        = c3239838  (-1.635946e+02)
+       B        = c698d99f  (-1.956481e+04)
+       REF(real)= -1.972841e+04
+       expected = c69a20cf
+       result   = c69a20d0
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=200 latency=8
+       A        = 488faa3d  (2.942259e+05)
+       B        = 44003cd8  (5.129507e+02)
+       REF(real)= 2.947389e+05
+       expected = 488fea5b
+       result   = 488fea5c
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=00 : 200/1000
+[FAIL] op=00 case=215 latency=8
+       A        = 3d2e34d9  (4.253087e-02)
+       B        = 47acad2c  (8.841034e+04)
+       REF(real)= 8.841039e+04
+       expected = 47acad31
+       result   = 47acad32
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=236 latency=8
+       A        = 4be85e42  (3.045696e+07)
+       B        = 3f60bf28  (8.779168e-01)
+       REF(real)= 3.045696e+07
+       expected = 4be85e42
+       result   = 4be85e43
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=249 latency=8
+       A        = 34ed8956  (4.424462e-07)
+       B        = 3f724ab5  (9.464524e-01)
+       REF(real)= 9.464529e-01
+       expected = 3f724abc
+       result   = 3f724abd
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=00 : 300/1000
+[FAIL] op=00 case=335 latency=8
+       A        = cc825680  (-6.833459e+07)
+       B        = c9857859  (-1.093387e+06)
+       REF(real)= -6.942798e+07
+       expected = cc846c61
+       result   = cc846c62
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=358 latency=8
+       A        = beaf1a0b  (-3.419956e-01)
+       B        = b9cf4d91  (-3.953991e-04)
+       REF(real)= -3.423910e-01
+       expected = beaf4dde
+       result   = beaf4ddf
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=396 latency=8
+       A        = cddbd274  (-4.610003e+08)
+       B        = 4f2d0db9  (2.903358e+09)
+       REF(real)= 2.442357e+09
+       expected = 4f11936a
+       result   = 4f11936b
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=00 : 400/1000
+[FAIL] op=00 case=406 latency=8
+       A        = 3e5153da  (2.044214e-01)
+       B        = 31d354af  (6.150536e-09)
+       REF(real)= 2.044214e-01
+       expected = 3e5153da
+       result   = 3e5153db
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=410 latency=8
+       A        = bdf9de38  (-1.220059e-01)
+       B        = ca7f2e33  (-4.180877e+06)
+       REF(real)= -4.180877e+06
+       expected = ca7f2e33
+       result   = ca7f2e34
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=432 latency=8
+       A        = bba5c0d4  (-5.058387e-03)
+       B        = c004a7b6  (-2.072736e+00)
+       REF(real)= -2.077795e+00
+       expected = c004fa96
+       result   = c004fa97
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=442 latency=8
+       A        = c0fb3972  (-7.850762e+00)
+       B        = cd125c29  (-1.534696e+08)
+       REF(real)= -1.534696e+08
+       expected = cd125c29
+       result   = cd125c2a
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=472 latency=8
+       A        = 32af3a62  (2.039923e-08)
+       B        = 36e98798  (6.959726e-06)
+       REF(real)= 6.980126e-06
+       expected = 36ea36d2
+       result   = 36ea36d3
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=486 latency=8
+       A        = c1861b6e  (-1.676339e+01)
+       B        = b5662255  (-8.573164e-07)
+       REF(real)= -1.676339e+01
+       expected = c1861b6e
+       result   = c1861b6f
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=00 : 500/1000
+[FAIL] op=00 case=515 latency=8
+       A        = 45f25e29  (7.755770e+03)
+       B        = 41ee517b  (2.978979e+01)
+       REF(real)= 7.785560e+03
+       expected = 45f34c7a
+       result   = 45f34c7b
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=526 latency=8
+       A        = c279007f  (-6.225048e+01)
+       B        = ceb9b27b  (-1.557741e+09)
+       REF(real)= -1.557741e+09
+       expected = ceb9b27b
+       result   = ceb9b27c
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=540 latency=8
+       A        = 3b6edfab  (3.644923e-03)
+       B        = 30acafe7  (1.256464e-09)
+       REF(real)= 3.644925e-03
+       expected = 3b6edfb0
+       result   = 3b6edfb1
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=577 latency=8
+       A        = 42f49371  (1.222880e+02)
+       B        = 3e7aaedb  (2.448076e-01)
+       REF(real)= 1.225328e+02
+       expected = 42f510c8
+       result   = 42f510c9
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=578 latency=8
+       A        = 372dcd5d  (1.035942e-05)
+       B        = 405292a1  (3.290200e+00)
+       REF(real)= 3.290210e+00
+       expected = 405292cc
+       result   = 405292cd
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=00 : 600/1000
+[FAIL] op=00 case=627 latency=8
+       A        = b6ee151d  (-7.095411e-06)
+       B        = b428434d  (-1.567070e-07)
+       REF(real)= -7.252118e-06
+       expected = b6f35737
+       result   = b6f35738
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=633 latency=8
+       A        = cf544308  (-3.561163e+09)
+       B        = caace2d9  (-5.665132e+06)
+       REF(real)= -3.566828e+09
+       expected = cf549979
+       result   = cf54997a
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=652 latency=8
+       A        = b971f46a  (-2.307460e-04)
+       B        = b35d563b  (-5.153400e-08)
+       REF(real)= -2.307976e-04
+       expected = b972023f
+       result   = b9720240
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=00 : 700/1000
+[FAIL] op=00 case=738 latency=8
+       A        = b429b620  (-1.580561e-07)
+       B        = bd4365cf  (-4.770451e-02)
+       REF(real)= -4.770467e-02
+       expected = bd4365f9
+       result   = bd4365fa
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=749 latency=8
+       A        = cd5d5177  (-2.320690e+08)
+       B        = c465e201  (-9.195313e+02)
+       REF(real)= -2.320699e+08
+       expected = cd5d51b0
+       result   = cd5d51b1
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=755 latency=8
+       A        = c0fa6eca  (-7.826024e+00)
+       B        = c8a951e5  (-3.467672e+05)
+       REF(real)= -3.467750e+05
+       expected = c8a952df
+       result   = c8a952e0
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=00 : 800/1000
+[FAIL] op=00 case=832 latency=8
+       A        = 456dfb48  (3.807705e+03)
+       B        = 38ed8eff  (1.132768e-04)
+       REF(real)= 3.807705e+03
+       expected = 456dfb48
+       result   = 456dfb49
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=872 latency=8
+       A        = 45e1aca9  (7.221583e+03)
+       B        = 41db0767  (2.737861e+01)
+       REF(real)= 7.248961e+03
+       expected = 45e287b0
+       result   = 45e287b1
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=888 latency=8
+       A        = 4872ba9b  (2.485544e+05)
+       B        = 454c275b  (3.266460e+03)
+       REF(real)= 2.518209e+05
+       expected = 4875eb38
+       result   = 4875eb39
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=892 latency=8
+       A        = cbaecd64  (-2.291169e+07)
+       B        = ca0e9474  (-2.336029e+06)
+       REF(real)= -2.524772e+07
+       expected = cbc09ff2
+       result   = cbc09ff3
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=895 latency=8
+       A        = 46fe50a9  (3.255233e+04)
+       B        = 40aa16f0  (5.315300e+00)
+       REF(real)= 3.255765e+04
+       expected = 46fe5b4a
+       result   = 46fe5b4b
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=00 : 900/1000
+[FAIL] op=00 case=903 latency=8
+       A        = 3801ee60  (3.097800e-05)
+       B        = 3647df17  (2.978317e-06)
+       REF(real)= 3.395632e-05
+       expected = 380e6c51
+       result   = 380e6c52
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=926 latency=8
+       A        = 3ecaf591  (3.964048e-01)
+       B        = 47485d9c  (5.129361e+04)
+       REF(real)= 5.129401e+04
+       expected = 47485e01
+       result   = 47485e02
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=927 latency=8
+       A        = 4dd5ce70  (4.483845e+08)
+       B        = 457ce01d  (4.046007e+03)
+       REF(real)= 4.483886e+08
+       expected = 4dd5ceee
+       result   = 4dd5ceef
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=947 latency=8
+       A        = 432f730c  (1.754494e+02)
+       B        = 3b1f646d  (2.432133e-03)
+       REF(real)= 1.754518e+02
+       expected = 432f73ab
+       result   = 432f73ac
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=978 latency=8
+       A        = 4da4bc87  (3.454773e+08)
+       B        = 4bdae9b8  (2.869336e+07)
+       REF(real)= 3.741707e+08
+       expected = 4db26b22
+       result   = 4db26b23
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=980 latency=8
+       A        = c60c1696  (-8.965646e+03)
+       B        = cc02f556  (-3.432994e+07)
+       REF(real)= -3.433891e+07
+       expected = cc02fe17
+       result   = cc02fe18
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=985 latency=8
+       A        = b02da5da  (-6.317272e-10)
+       B        = b370a30e  (-5.602765e-08)
+       REF(real)= -5.665938e-08
+       expected = b37359a5
+       result   = b37359a6
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=993 latency=8
+       A        = 3f77d898  (9.681487e-01)
+       B        = 3c5f0cdc  (1.361391e-02)
+       REF(real)= 9.817626e-01
+       expected = 3f7b54cb
+       result   = 3f7b54cc
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=00 case=998 latency=8
+       A        = b75a1e8f  (-1.300093e-05)
+       B        = be1977cc  (-1.498711e-01)
+       REF(real)= -1.498841e-01
+       expected = be197b34
+       result   = be197b35
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=00 : 1000/1000
+
+==================== 1000 RANDOM SUB TESTS ====================
+[FAIL] op=01 case=2 latency=9
+       A        = ca842836  (-4.330523e+06)
+       B        = c9357d56  (-7.433814e+05)
+       REF(real)= -3.587142e+06
+       expected = ca5af116
+       result   = ca5af117
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=11 latency=8
+       A        = 4c1721cb  (3.961835e+07)
+       B        = c6ff6bd1  (-3.269391e+04)
+       REF(real)= 3.965104e+07
+       expected = 4c1741b8
+       result   = 4c1741b9
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=30 latency=8
+       A        = b6c9be89  (-6.012448e-06)
+       B        = 3fc68a0c  (1.551088e+00)
+       REF(real)= -1.551094e+00
+       expected = bfc68a3e
+       result   = bfc68a3f
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=55 latency=8
+       A        = ceef4813  (-2.007239e+09)
+       B        = 42498e94  (5.038924e+01)
+       REF(real)= -2.007239e+09
+       expected = ceef4813
+       result   = ceef4814
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=73 latency=8
+       A        = 332b1b71  (3.983900e-08)
+       B        = bcc788d4  (-2.435724e-02)
+       REF(real)= 2.435728e-02
+       expected = 3cc788e9
+       result   = 3cc788ea
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=01 : 100/1000
+[FAIL] op=01 case=104 latency=8
+       A        = 3f8af3fc  (1.085571e+00)
+       B        = c8666171  (-2.359098e+05)
+       REF(real)= 2.359109e+05
+       expected = 486661b6
+       result   = 486661b7
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=125 latency=9
+       A        = c455351f  (-8.528300e+02)
+       B        = 43f143bc  (4.825292e+02)
+       REF(real)= -1.335359e+03
+       expected = c4a6eb7e
+       result   = c4a6eb7f
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=132 latency=8
+       A        = caced4e4  (-6.777458e+06)
+       B        = 4256c324  (5.369057e+01)
+       REF(real)= -6.777512e+06
+       expected = caced54f
+       result   = caced550
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=154 latency=8
+       A        = 35b3a062  (1.338322e-06)
+       B        = b4c1e052  (-3.611227e-07)
+       REF(real)= 1.699444e-06
+       expected = 35e41876
+       result   = 35e41877
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=171 latency=8
+       A        = cbbe6e72  (-2.496023e+07)
+       B        = 3f5e1be0  (8.676128e-01)
+       REF(real)= -2.496023e+07
+       expected = cbbe6e72
+       result   = cbbe6e73
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=176 latency=8
+       A        = b9fac92f  (-4.783361e-04)
+       B        = 3436c334  (1.702109e-07)
+       REF(real)= -4.785063e-04
+       expected = b9fae007
+       result   = b9fae008
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=01 : 200/1000
+[FAIL] op=01 case=201 latency=8
+       A        = 3b2b426c  (2.613212e-03)
+       B        = c494a493  (-1.189143e+03)
+       REF(real)= 1.189146e+03
+       expected = 4494a4a8
+       result   = 4494a4a9
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=232 latency=8
+       A        = c2c66568  (-9.919806e+01)
+       B        = 365e66ee  (3.314049e-06)
+       REF(real)= -9.919806e+01
+       expected = c2c66568
+       result   = c2c66569
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=254 latency=8
+       A        = c90c213b  (-5.739717e+05)
+       B        = 4c9b2151  (8.133287e+07)
+       REF(real)= -8.190684e+07
+       expected = cc9c3993
+       result   = cc9c3994
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=265 latency=8
+       A        = c773d9cc  (-6.242580e+04)
+       B        = 3ccdb342  (2.510989e-02)
+       REF(real)= -6.242582e+04
+       expected = c773d9d2
+       result   = c773d9d3
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=01 : 300/1000
+[FAIL] op=01 case=313 latency=8
+       A        = 47b9fe3e  (9.522848e+04)
+       B        = cb5497c8  (-1.393249e+07)
+       REF(real)= 1.402772e+07
+       expected = 4b560bc4
+       result   = 4b560bc5
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=350 latency=8
+       A        = bb1741b0  (-2.307992e-03)
+       B        = 4503a18b  (2.106096e+03)
+       REF(real)= -2.106099e+03
+       expected = c503a194
+       result   = c503a195
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=365 latency=9
+       A        = c92c1c20  (-7.049620e+05)
+       B        = 4935a545  (7.440203e+05)
+       REF(real)= -1.448982e+06
+       expected = c9b0e0b2
+       result   = c9b0e0b3
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=384 latency=8
+       A        = 3ef0704f  (4.696068e-01)
+       B        = c1301bbc  (-1.100677e+01)
+       REF(real)= 1.147638e+01
+       expected = 41379f3e
+       result   = 41379f3f
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=397 latency=8
+       A        = bcce1fff  (-2.516174e-02)
+       B        = 43d44413  (4.245318e+02)
+       REF(real)= -4.245570e+02
+       expected = c3d4474b
+       result   = c3d4474c
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=01 : 400/1000
+[FAIL] op=01 case=421 latency=8
+       A        = 48344fdd  (1.846395e+05)
+       B        = c38202c6  (-2.600217e+02)
+       REF(real)= 1.848995e+05
+       expected = 483490de
+       result   = 483490df
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=427 latency=8
+       A        = 3639204c  (2.758595e-06)
+       B        = b56a356a  (-8.724952e-07)
+       REF(real)= 3.631090e-06
+       expected = 3673ada6
+       result   = 3673ada7
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=442 latency=8
+       A        = b599ab70  (-1.144928e-06)
+       B        = 399329eb  (2.806926e-04)
+       REF(real)= -2.818375e-04
+       expected = b993c396
+       result   = b993c397
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=454 latency=8
+       A        = 493dd950  (7.776210e+05)
+       B        = bcc28a14  (-2.374748e-02)
+       REF(real)= 7.776210e+05
+       expected = 493dd950
+       result   = 493dd951
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=458 latency=8
+       A        = 417d59f1  (1.583446e+01)
+       B        = b9bbbeb0  (-3.580949e-04)
+       REF(real)= 1.583482e+01
+       expected = 417d5b68
+       result   = 417d5b69
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=471 latency=8
+       A        = bb59f055  (-3.325482e-03)
+       B        = 362021b1  (2.386147e-06)
+       REF(real)= -3.327868e-03
+       expected = bb5a185d
+       result   = bb5a185e
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=492 latency=8
+       A        = 39f35add  (4.641627e-04)
+       B        = c37a89f5  (-2.505389e+02)
+       REF(real)= 2.505394e+02
+       expected = 437a8a13
+       result   = 437a8a14
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=499 latency=8
+       A        = 4d149901  (1.558160e+08)
+       B        = 4a684ba0  (3.805928e+06)
+       REF(real)= 1.520100e+08
+       expected = 4d10f7d2
+       result   = 4d10f7d3
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=01 : 500/1000
+[FAIL] op=01 case=529 latency=8
+       A        = b7b2a3f6  (-2.129560e-05)
+       B        = 311eece2  (2.312668e-09)
+       REF(real)= -2.129792e-05
+       expected = b7b2a8ed
+       result   = b7b2a8ee
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=572 latency=8
+       A        = 3d1b55ee  (3.792375e-02)
+       B        = bfdbef3b  (-1.718238e+00)
+       REF(real)= 1.756162e+00
+       expected = 3fe0c9ea
+       result   = 3fe0c9eb
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=585 latency=8
+       A        = 4b33be2e  (1.177963e+07)
+       B        = cc23fdf1  (-4.298951e+07)
+       REF(real)= 5.476914e+07
+       expected = 4c50ed7c
+       result   = 4c50ed7d
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=590 latency=8
+       A        = 30119b55  (5.297143e-10)
+       B        = b5c80670  (-1.490303e-06)
+       REF(real)= 1.490833e-06
+       expected = 35c818a3
+       result   = 35c818a4
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=01 : 600/1000
+[FAIL] op=01 case=696 latency=8
+       A        = 366ff5ed  (3.575692e-06)
+       B        = c2a7709b  (-8.371993e+01)
+       REF(real)= 8.371994e+01
+       expected = 42a7709b
+       result   = 42a7709c
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=01 : 700/1000
+[FAIL] op=01 case=712 latency=8
+       A        = 307e2b62  (9.246631e-10)
+       B        = b432d93f  (-1.665658e-07)
+       REF(real)= 1.674904e-07
+       expected = 3433d76a
+       result   = 3433d76b
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=718 latency=8
+       A        = 3b2c1d67  (2.626264e-03)
+       B        = b6085da5  (-2.032009e-06)
+       REF(real)= 2.628296e-03
+       expected = 3b2c3f7e
+       result   = 3b2c3f7f
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=721 latency=8
+       A        = 394081f2  (1.835896e-04)
+       B        = 3808b84e  (3.259657e-05)
+       REF(real)= 1.509930e-04
+       expected = 391e53de
+       result   = 391e53df
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=733 latency=8
+       A        = b00fbfb3  (-5.229552e-10)
+       B        = 33eaf4b5  (1.094099e-07)
+       REF(real)= -1.099328e-07
+       expected = b3ec1434
+       result   = b3ec1435
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=751 latency=8
+       A        = c1dee076  (-2.785960e+01)
+       B        = 3d6fc8d6  (5.854114e-02)
+       REF(real)= -2.791814e+01
+       expected = c1df585a
+       result   = c1df585b
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=758 latency=8
+       A        = 33091b35  (3.192254e-08)
+       B        = b6e9e53f  (-6.970629e-06)
+       REF(real)= 7.002551e-06
+       expected = 36eaf775
+       result   = 36eaf776
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=763 latency=9
+       A        = 368043a0  (3.822570e-06)
+       B        = b6fc0ee5  (-7.511919e-06)
+       REF(real)= 1.133449e-05
+       expected = 373e2942
+       result   = 373e2943
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=798 latency=8
+       A        = 40c1c56d  (6.055350e+00)
+       B        = b455887f  (-1.988683e-07)
+       REF(real)= 6.055350e+00
+       expected = 40c1c56d
+       result   = 40c1c56e
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=01 : 800/1000
+[FAIL] op=01 case=814 latency=8
+       A        = 3923dd91  (1.562743e-04)
+       B        = b031fdff  (-6.475318e-10)
+       REF(real)= 1.562750e-04
+       expected = 3923ddbd
+       result   = 3923ddbe
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=838 latency=8
+       A        = b79b1b7f  (-1.849024e-05)
+       B        = 34b44adb  (3.358208e-07)
+       REF(real)= -1.882606e-05
+       expected = b79decaa
+       result   = b79decab
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=840 latency=8
+       A        = b2829d5a  (-1.520555e-08)
+       B        = 39e7de1d  (4.422524e-04)
+       REF(real)= -4.422676e-04
+       expected = b9e7e027
+       result   = b9e7e028
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=849 latency=8
+       A        = 457b69d9  (4.022615e+03)
+       B        = c1779572  (-1.547399e+01)
+       REF(real)= 4.038089e+03
+       expected = 457c616e
+       result   = 457c616f
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=858 latency=8
+       A        = bb5a1687  (-3.327759e-03)
+       B        = 37ea2438  (2.791184e-05)
+       REF(real)= -3.355671e-03
+       expected = bb5beacf
+       result   = bb5bead0
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=860 latency=9
+       A        = 44b6adbb  (1.461429e+03)
+       B        = 45a97308  (5.422379e+03)
+       REF(real)= -3.960950e+03
+       expected = c5778f32
+       result   = c5778f33
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=01 : 900/1000
+[FAIL] op=01 case=907 latency=8
+       A        = b4a58fbb  (-3.083822e-07)
+       B        = 381ec5eb  (3.785446e-05)
+       REF(real)= -3.816284e-05
+       expected = b820110a
+       result   = b820110b
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=913 latency=8
+       A        = b6c15d79  (-5.762730e-06)
+       B        = 33a1851d  (7.521360e-08)
+       REF(real)= -5.837943e-06
+       expected = b6c3e38d
+       result   = b6c3e38e
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=932 latency=8
+       A        = 4f309f1d  (2.963218e+09)
+       B        = c6dec90b  (-2.851652e+04)
+       REF(real)= 2.963246e+09
+       expected = 4f309f8c
+       result   = 4f309f8d
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=952 latency=8
+       A        = bad1d609  (-1.600922e-03)
+       B        = 439e7bd3  (3.169674e+02)
+       REF(real)= -3.169690e+02
+       expected = c39e7c07
+       result   = c39e7c08
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=979 latency=8
+       A        = c855d7cf  (-2.189752e+05)
+       B        = 449deab4  (1.263334e+03)
+       REF(real)= -2.202386e+05
+       expected = c85713a4
+       result   = c85713a5
+       GRS      = 000
+       OV/UF    = 0/0
+[FAIL] op=01 case=990 latency=8
+       A        = 45334656  (2.868396e+03)
+       B        = 43d2c8fc  (4.215702e+02)
+       REF(real)= 2.446826e+03
+       expected = 4518ed36
+       result   = 4518ed37
+       GRS      = 000
+       OV/UF    = 0/0
+Progress op=01 : 1000/1000
+
+==================== 1000 RANDOM MUL TESTS ====================
+[FAIL] op=10 case=1 latency=2
+       A        = 46a322cd  (2.088140e+04)
+       B        = c85efa9d  (-2.283305e+05)
+       REF(real)= -4.767860e+09
+       expected = cf8e17e2
+       result   = cf8e17e1
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=2 latency=2
+       A        = 43adc504  (3.475392e+02)
+       B        = 49f69159  (2.019883e+06)
+       REF(real)= 7.019885e+08
+       expected = 4e275dfb
+       result   = 4e275dfa
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=5 latency=2
+       A        = 46a6cbcb  (2.134990e+04)
+       B        = 303e96b7  (6.933578e-10)
+       REF(real)= 1.480312e-05
+       expected = 37785ae7
+       result   = 37785ae6
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=7 latency=2
+       A        = 35e452d5  (1.701143e-06)
+       B        = c6ada3a4  (-2.222582e+04)
+       REF(real)= -3.780930e-02
+       expected = bd1added
+       result   = bd1addec
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=8 latency=2
+       A        = 4439867b  (7.421013e+02)
+       B        = 329ec345  (1.848242e-08)
+       REF(real)= 1.371583e-05
+       expected = 37661d07
+       result   = 37661d06
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=9 latency=2
+       A        = 4cecec46  (1.242159e+08)
+       B        = c66f8b42  (-1.533081e+04)
+       REF(real)= -1.904330e+12
+       expected = d3ddb177
+       result   = d3ddb176
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=10 latency=2
+       A        = 4533dcd2  (2.877801e+03)
+       B        = c44bc4ff  (-8.150781e+02)
+       REF(real)= -2.345633e+06
+       expected = ca0f2a83
+       result   = ca0f2a82
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=12 latency=2
+       A        = 4c6ce32c  (6.209861e+07)
+       B        = b478196a  (-2.310605e-07)
+       REF(real)= -1.434853e+01
+       expected = c1659397
+       result   = c1659396
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=15 latency=2
+       A        = 3448d2ea  (1.870318e-07)
+       B        = 30552059  (7.753492e-10)
+       REF(real)= 1.450150e-16
+       expected = 252730dd
+       result   = 252730dc
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=16 latency=2
+       A        = b089d1f5  (-1.002774e-09)
+       B        = 3671bd0b  (3.602184e-06)
+       REF(real)= -3.612174e-15
+       expected = a782246e
+       result   = a782246d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=21 latency=2
+       A        = b01b72b2  (-5.655166e-10)
+       B        = 4c70ae69  (6.309316e+07)
+       REF(real)= -3.568023e-02
+       expected = bd12256f
+       result   = bd12256e
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=24 latency=2
+       A        = b030e596  (-6.435469e-10)
+       B        = 43a0729f  (3.208955e+02)
+       REF(real)= -2.065113e-07
+       expected = b45dbd64
+       result   = b45dbd63
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=26 latency=2
+       A        = b9df3036  (-4.256979e-04)
+       B        = c18b252b  (-1.739315e+01)
+       REF(real)= 7.404228e-03
+       expected = 3bf29f2a
+       result   = 3bf29f29
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=27 latency=2
+       A        = bfc09969  (-1.504682e+00)
+       B        = 44c6f1ba  (1.591554e+03)
+       REF(real)= -2.394782e+03
+       expected = c515ac84
+       result   = c515ac83
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=30 latency=2
+       A        = 3f223d1a  (6.337448e-01)
+       B        = cb8fa894  (-1.882961e+07)
+       REF(real)= -1.193317e+07
+       expected = cb3615ef
+       result   = cb3615ee
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=34 latency=2
+       A        = b9566d90  (-2.044945e-04)
+       B        = 43af4d24  (3.506027e+02)
+       REF(real)= -7.169630e-02
+       expected = bd92d583
+       result   = bd92d582
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=36 latency=2
+       A        = 4ef573b8  (2.059001e+09)
+       B        = be6d756d  (-2.318933e-01)
+       REF(real)= -4.774684e+08
+       expected = cde3acb8
+       result   = cde3acb7
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=40 latency=2
+       A        = ba2773be  (-6.387791e-04)
+       B        = 49851546  (1.090217e+06)
+       REF(real)= -6.964077e+02
+       expected = c42e1a18
+       result   = c42e1a17
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=44 latency=2
+       A        = 4e66e75b  (9.684804e+08)
+       B        = c2b66095  (-9.118864e+01)
+       REF(real)= -8.831441e+10
+       expected = d1a47f98
+       result   = d1a47f97
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=47 latency=2
+       A        = 477093e6  (6.158790e+04)
+       B        = 4d2d2bdf  (1.815833e+08)
+       REF(real)= 1.118334e+13
+       expected = 5522bd2d
+       result   = 5522bd2c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=50 latency=2
+       A        = 32b50802  (2.107481e-08)
+       B        = c071959c  (-3.774756e+00)
+       REF(real)= -7.955229e-08
+       expected = b3aad656
+       result   = b3aad655
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=51 latency=2
+       A        = c1d08a99  (-2.606767e+01)
+       B        = b10ceccd  (-2.050729e-09)
+       REF(real)= 5.345773e-08
+       expected = 33659965
+       result   = 33659964
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=52 latency=2
+       A        = 410ea5a0  (8.915436e+00)
+       B        = c9d08a62  (-1.708364e+06)
+       REF(real)= -1.523081e+07
+       expected = cb68675c
+       result   = cb68675b
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=55 latency=2
+       A        = b024effc  (-6.000389e-10)
+       B        = 459ab50f  (4.950632e+03)
+       REF(real)= -2.970572e-06
+       expected = b6475a0a
+       result   = b6475a09
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=56 latency=2
+       A        = 38e53106  (1.092870e-04)
+       B        = bdb4a530  (-8.820570e-02)
+       REF(real)= -9.639738e-06
+       expected = b721ba5c
+       result   = b721ba5b
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=57 latency=2
+       A        = 3eb17b08  (3.466418e-01)
+       B        = c2daf54b  (-1.094791e+02)
+       REF(real)= -3.795003e+01
+       expected = c217ccd4
+       result   = c217ccd3
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=58 latency=2
+       A        = b3ee69ce  (-1.110198e-07)
+       B        = 42c9b114  (1.008459e+02)
+       REF(real)= -1.119589e-05
+       expected = b73bd5fd
+       result   = b73bd5fc
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=59 latency=2
+       A        = 32cfdf8d  (2.419963e-08)
+       B        = c75b2217  (-5.609809e+04)
+       REF(real)= -1.357553e-03
+       expected = bab1efec
+       result   = bab1efeb
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=64 latency=2
+       A        = 4835422d  (1.856087e+05)
+       B        = c1310709  (-1.106422e+01)
+       REF(real)= -2.053615e+06
+       expected = c9faaf79
+       result   = c9faaf78
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=65 latency=2
+       A        = 371d381c  (9.370993e-06)
+       B        = ccc788de  (-1.046136e+08)
+       REF(real)= -9.803335e+02
+       expected = c4751558
+       result   = c4751557
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=66 latency=2
+       A        = 4f4fd50c  (3.486846e+09)
+       B        = 4ad7cabc  (7.071070e+06)
+       REF(real)= 2.465573e+16
+       expected = 5aaf3084
+       result   = 5aaf3083
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=68 latency=2
+       A        = 37250728  (9.836433e-06)
+       B        = c86c8ef8  (-2.422359e+05)
+       REF(real)= -2.382737e+00
+       expected = c0187ec3
+       result   = c0187ec2
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=71 latency=2
+       A        = cae12ea7  (-7.378772e+06)
+       B        = bc3e9a3c  (-1.163345e-02)
+       REF(real)= 8.584058e+04
+       expected = 47a7a84b
+       result   = 47a7a84a
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=72 latency=2
+       A        = bc321fdb  (-1.087185e-02)
+       B        = b897258d  (-7.207235e-05)
+       REF(real)= 7.835600e-07
+       expected = 355255d6
+       result   = 355255d5
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=73 latency=2
+       A        = b0f661b6  (-1.792663e-09)
+       B        = 42c2f8d2  (9.748598e+01)
+       REF(real)= -1.747595e-07
+       expected = b43ba585
+       result   = b43ba584
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=76 latency=2
+       A        = 3d45aacf  (4.825860e-02)
+       B        = bf886b60  (-1.065777e+00)
+       REF(real)= -5.143290e-02
+       expected = bd52ab4d
+       result   = bd52ab4c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=77 latency=2
+       A        = cdc1cd39  (-4.064315e+08)
+       B        = 424c520a  (5.108012e+01)
+       REF(real)= -2.076057e+10
+       expected = d09aada5
+       result   = d09aada4
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=80 latency=2
+       A        = ba74c903  (-9.337814e-04)
+       B        = 4333ff0a  (1.799962e+02)
+       REF(real)= -1.680772e-01
+       expected = be2c1c6b
+       result   = be2c1c6a
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=84 latency=2
+       A        = 4f00981f  (2.157453e+09)
+       B        = bea982e9  (-3.310769e-01)
+       REF(real)= -7.142828e+08
+       expected = ce2a4c5e
+       result   = ce2a4c5d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=85 latency=2
+       A        = c8faf9e4  (-5.139991e+05)
+       B        = 310f6d2d  (2.087130e-09)
+       REF(real)= -1.072783e-03
+       expected = ba8c9c9f
+       result   = ba8c9c9e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=86 latency=2
+       A        = 458a279b  (4.420951e+03)
+       B        = cd02095e  (-1.363532e+08)
+       REF(real)= -6.028110e+11
+       expected = d30c5a56
+       result   = d30c5a55
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=87 latency=2
+       A        = 3ffe1d13  (1.985262e+00)
+       B        = b2e4eea0  (-2.665121e-08)
+       REF(real)= -5.290964e-08
+       expected = b3633ec3
+       result   = b3633ec2
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=88 latency=2
+       A        = 30d63cff  (1.558789e-09)
+       B        = 359494c3  (1.107015e-06)
+       REF(real)= 1.725603e-15
+       expected = 26f8af84
+       result   = 26f8af83
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=92 latency=2
+       A        = c38ed4ae  (-2.856616e+02)
+       B        = 40bcd74c  (5.901281e+00)
+       REF(real)= -1.685769e+03
+       expected = c4d2b89e
+       result   = c4d2b89d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=93 latency=2
+       A        = 3bb40e23  (5.494849e-03)
+       B        = 4b45e2aa  (1.296862e+07)
+       REF(real)= 7.126060e+04
+       expected = 478b2e4d
+       result   = 478b2e4c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=96 latency=2
+       A        = bdef7fac  (-1.169427e-01)
+       B        = c985e98d  (-1.097010e+06)
+       REF(real)= 1.282873e+05
+       expected = 47fa8fa7
+       result   = 47fa8fa6
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=98 latency=2
+       A        = bad9fd6c  (-1.663131e-03)
+       B        = b1b00811  (-5.123191e-09)
+       REF(real)= 8.520539e-12
+       expected = 2d15e519
+       result   = 2d15e518
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=99 latency=2
+       A        = b06c9433  (-8.606690e-10)
+       B        = 408ed880  (4.463928e+00)
+       REF(real)= -3.841965e-09
+       expected = b1840248
+       result   = b1840247
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=100 latency=2
+       A        = b5e95da9  (-1.738711e-06)
+       B        = c2ef6624  (-1.196995e+02)
+       REF(real)= 2.081228e-04
+       expected = 395a3b8d
+       result   = 395a3b8c
+       GRS      = 111
+       OV/UF    = 0/0
+Progress op=10 : 100/1000
+[FAIL] op=10 case=102 latency=2
+       A        = 41439fb0  (1.222649e+01)
+       B        = 4d315b64  (1.859723e+08)
+       REF(real)= 2.273788e+09
+       expected = 4f07873f
+       result   = 4f07873e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=103 latency=2
+       A        = c683bca9  (-1.686233e+04)
+       B        = 39b5b501  (3.465787e-04)
+       REF(real)= -5.844124e+00
+       expected = c0bb0311
+       result   = c0bb0310
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=104 latency=2
+       A        = bd198d8f  (-3.748852e-02)
+       B        = 3194f671  (4.335384e-09)
+       REF(real)= -1.625271e-10
+       expected = af32b351
+       result   = af32b350
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=105 latency=2
+       A        = b6353a37  (-2.700499e-06)
+       B        = cb694f6b  (-1.529022e+07)
+       REF(real)= 4.129122e+01
+       expected = 42252a35
+       result   = 42252a34
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=106 latency=2
+       A        = b18aa424  (-4.034989e-09)
+       B        = c59f0d40  (-5.089656e+03)
+       REF(real)= 2.053671e-05
+       expected = 37ac463f
+       result   = 37ac463e
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=107 latency=2
+       A        = b032f1c9  (-6.509962e-10)
+       B        = 448eb87b  (1.141765e+03)
+       REF(real)= -7.432847e-07
+       expected = b5478623
+       result   = b5478622
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=108 latency=2
+       A        = 32492ff4  (1.171064e-08)
+       B        = 31ae3591  (5.070156e-09)
+       REF(real)= 5.937479e-17
+       expected = 2488e8b1
+       result   = 2488e8b0
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=109 latency=2
+       A        = bf2a0002  (-6.640626e-01)
+       B        = 4e60e3f1  (9.432587e+08)
+       REF(real)= -6.263828e+08
+       expected = ce155760
+       result   = ce15575f
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=110 latency=2
+       A        = c2fe2c55  (-1.270866e+02)
+       B        = c7aebfb5  (-8.947141e+04)
+       REF(real)= 1.137062e+07
+       expected = 4b2d8079
+       result   = 4b2d8078
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=112 latency=2
+       A        = b06d65ef  (-8.636495e-10)
+       B        = c98ec14c  (-1.169450e+06)
+       REF(real)= 1.009995e-03
+       expected = 3a8461cb
+       result   = 3a8461ca
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=113 latency=2
+       A        = 35307f80  (6.575065e-07)
+       B        = bb5a0ad9  (-3.327063e-03)
+       REF(real)= -2.187565e-09
+       expected = b116540e
+       result   = b116540d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=114 latency=2
+       A        = 43d9591f  (4.346963e+02)
+       B        = c8720f21  (-2.478685e+05)
+       REF(real)= -1.077475e+08
+       expected = cccd8318
+       result   = cccd8317
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=115 latency=2
+       A        = 315df7f9  (3.230069e-09)
+       B        = c695b2b0  (-1.916134e+04)
+       REF(real)= -6.189246e-05
+       expected = b881cc43
+       result   = b881cc42
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=116 latency=2
+       A        = 3fa74e46  (1.307076e+00)
+       B        = 3ca63cd4  (2.029268e-02)
+       REF(real)= 2.652408e-02
+       expected = 3cd94905
+       result   = 3cd94904
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=118 latency=2
+       A        = 4ec34786  (1.638122e+09)
+       B        = 46569e66  (1.373560e+04)
+       REF(real)= 2.250059e+13
+       expected = 55a3b69e
+       result   = 55a3b69d
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=120 latency=2
+       A        = c5c40afd  (-6.273374e+03)
+       B        = 4a00476e  (2.101724e+06)
+       REF(real)= -1.318490e+10
+       expected = d0447864
+       result   = d0447863
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=121 latency=2
+       A        = b43f30c7  (-1.780601e-07)
+       B        = c7f7a30e  (-1.267901e+05)
+       REF(real)= 2.257625e-02
+       expected = 3cb8f1d7
+       result   = 3cb8f1d6
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=123 latency=2
+       A        = c9eeabcb  (-1.955193e+06)
+       B        = b6f8c859  (-7.414299e-06)
+       REF(real)= 1.449639e+01
+       expected = 4167f136
+       result   = 4167f135
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=124 latency=2
+       A        = 4b3cb94c  (1.236820e+07)
+       B        = ca4480f3  (-3.219517e+06)
+       REF(real)= -3.981964e+13
+       expected = d610dcee
+       result   = d610dced
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=125 latency=2
+       A        = ce2ba007  (-7.198479e+08)
+       B        = 304551e2  (7.178454e-10)
+       REF(real)= -5.167395e-01
+       expected = bf04490b
+       result   = bf04490a
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=127 latency=2
+       A        = 39e9f46d  (4.462333e-04)
+       B        = bd35efe1  (-4.441822e-02)
+       REF(real)= -1.982089e-05
+       expected = b7a6450a
+       result   = b7a64509
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=128 latency=2
+       A        = c9367bec  (-7.474548e+05)
+       B        = 3ab6883a  (1.392610e-03)
+       REF(real)= -1.040913e+03
+       expected = c4821d35
+       result   = c4821d34
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=132 latency=2
+       A        = 4f0271ca  (2.188495e+09)
+       B        = c5b60158  (-5.824168e+03)
+       REF(real)= -1.274616e+13
+       expected = d5397b2a
+       result   = d5397b29
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=133 latency=2
+       A        = b6835211  (-3.913658e-06)
+       B        = ba079210  (-5.171606e-04)
+       REF(real)= 2.023990e-09
+       expected = 310b1668
+       result   = 310b1667
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=138 latency=2
+       A        = c493bcf2  (-1.181905e+03)
+       B        = c6e4fabc  (-2.930937e+04)
+       REF(real)= 3.464087e+07
+       expected = 4c0424fb
+       result   = 4c0424fa
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=141 latency=2
+       A        = 4f40f3fb  (3.237215e+09)
+       B        = b81b30f7  (-3.700048e-05)
+       REF(real)= -1.197785e+05
+       expected = c7e9f142
+       result   = c7e9f141
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=143 latency=2
+       A        = b7584d95  (-1.289267e-05)
+       B        = bdcfcc6b  (-1.014641e-01)
+       REF(real)= 1.308143e-06
+       expected = 35af9374
+       result   = 35af9373
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=147 latency=2
+       A        = c24ccee9  (-5.120206e+01)
+       B        = c4dcb616  (-1.765690e+03)
+       REF(real)= 9.040698e+04
+       expected = 47b0937d
+       result   = 47b0937c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=148 latency=2
+       A        = b242c362  (-1.133671e-08)
+       B        = 4886b44a  (2.758743e+05)
+       REF(real)= -3.127507e-03
+       expected = bb4cf6de
+       result   = bb4cf6dd
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=149 latency=2
+       A        = bb557c4f  (-3.257531e-03)
+       B        = 4a852a82  (4.363585e+06)
+       REF(real)= -1.421452e+04
+       expected = c65e1a10
+       result   = c65e1a0f
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=152 latency=2
+       A        = 3fee97fc  (1.864013e+00)
+       B        = b337b8c7  (-4.277606e-08)
+       REF(real)= -7.973514e-08
+       expected = b3ab3adc
+       result   = b3ab3adb
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=153 latency=2
+       A        = b8d02b56  (-9.926285e-05)
+       B        = 32529a6f  (1.225872e-08)
+       REF(real)= -1.216836e-12
+       expected = abab4121
+       result   = abab4120
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=154 latency=2
+       A        = c3a0903b  (-3.211268e+02)
+       B        = 3cc3d997  (2.390747e-02)
+       REF(real)= -7.677328e+00
+       expected = c0f5acac
+       result   = c0f5acab
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=156 latency=2
+       A        = 496f5d8e  (9.804409e+05)
+       B        = cdffeb3a  (-5.367007e+08)
+       REF(real)= -5.262033e+14
+       expected = d7ef4a22
+       result   = d7ef4a21
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=158 latency=2
+       A        = c855ffc1  (-2.191350e+05)
+       B        = bf123fbb  (-5.712849e-01)
+       REF(real)= 1.251885e+05
+       expected = 47f48245
+       result   = 47f48244
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=159 latency=2
+       A        = 454b532f  (3.253199e+03)
+       B        = 37601b05  (1.335773e-05)
+       REF(real)= 4.345536e-02
+       expected = 3d31fe3f
+       result   = 3d31fe3e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=161 latency=2
+       A        = 3cbef6b7  (2.331100e-02)
+       B        = 3efb7f40  (4.912052e-01)
+       REF(real)= 1.145049e-02
+       expected = 3c3b9ad2
+       result   = 3c3b9ad1
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=162 latency=2
+       A        = 39208c2b  (1.531101e-04)
+       B        = 406fc329  (3.746287e+00)
+       REF(real)= 5.735942e-04
+       expected = 3a165d41
+       result   = 3a165d40
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=164 latency=2
+       A        = bfb04595  (-1.377123e+00)
+       B        = c1805a7a  (-1.604418e+01)
+       REF(real)= 2.209481e+01
+       expected = 41b0c22e
+       result   = 41b0c22d
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=165 latency=2
+       A        = 3b0754c8  (2.064990e-03)
+       B        = c3303270  (-1.761970e+02)
+       REF(real)= -3.638451e-01
+       expected = beba49e7
+       result   = beba49e6
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=168 latency=2
+       A        = c17ea42c  (-1.591508e+01)
+       B        = 46d3d8e9  (2.711646e+04)
+       REF(real)= -4.315606e+05
+       expected = c8d2b913
+       result   = c8d2b912
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=170 latency=2
+       A        = bfbd95e6  (-1.481137e+00)
+       B        = 4caaa85a  (8.947374e+07)
+       REF(real)= -1.325229e+08
+       expected = ccfcc470
+       result   = ccfcc46f
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=172 latency=2
+       A        = cf3e7684  (-3.195438e+09)
+       B        = c1f506c1  (-3.062830e+01)
+       REF(real)= 9.787083e+10
+       expected = 51b64c73
+       result   = 51b64c72
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=174 latency=2
+       A        = 3a424ec6  (7.412251e-04)
+       B        = 3a97495b  (1.154225e-03)
+       REF(real)= 8.555403e-07
+       expected = 3565a849
+       result   = 3565a848
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=175 latency=2
+       A        = becb0b0f  (-3.965687e-01)
+       B        = 4e8ed851  (1.198271e+09)
+       REF(real)= -4.751967e+08
+       expected = cde29768
+       result   = cde29767
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=180 latency=2
+       A        = 3d12f640  (3.587937e-02)
+       B        = be8aeef1  (-2.713542e-01)
+       REF(real)= -9.736020e-03
+       expected = bc1f83d4
+       result   = bc1f83d3
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=182 latency=2
+       A        = c69fc9b7  (-2.045286e+04)
+       B        = bca7084b  (-2.038970e-02)
+       REF(real)= 4.170276e+02
+       expected = 43d08387
+       result   = 43d08386
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=185 latency=2
+       A        = 33e7e4d0  (1.079840e-07)
+       B        = b98b5253  (-2.657348e-04)
+       REF(real)= -2.869510e-11
+       expected = adfc679f
+       result   = adfc679e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=187 latency=2
+       A        = 3eb87695  (3.602797e-01)
+       B        = c55d71ac  (-3.543104e+03)
+       REF(real)= -1.276509e+03
+       expected = c49f9047
+       result   = c49f9046
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=190 latency=2
+       A        = 3cb8cf97  (2.255992e-02)
+       B        = 372643a7  (9.910123e-06)
+       REF(real)= 2.235716e-07
+       expected = 34700ee6
+       result   = 34700ee5
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=191 latency=2
+       A        = 33df7221  (1.040501e-07)
+       B        = 390407e7  (1.259144e-04)
+       REF(real)= 1.310141e-11
+       expected = 2d667b7e
+       result   = 2d667b7d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=194 latency=2
+       A        = cddcf5f2  (-4.633882e+08)
+       B        = 4557404a  (3.444018e+03)
+       REF(real)= -1.595917e+12
+       expected = d3b9ca0c
+       result   = d3b9ca0b
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=195 latency=2
+       A        = ca4937ca  (-3.296754e+06)
+       B        = c7ae83ae  (-8.935136e+04)
+       REF(real)= 2.945695e+11
+       expected = 52892b6c
+       result   = 52892b6b
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=196 latency=2
+       A        = 3ab2d898  (1.364487e-03)
+       B        = 3e0e72f0  (1.391103e-01)
+       REF(real)= 1.898143e-04
+       expected = 394708e1
+       result   = 394708e0
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=197 latency=2
+       A        = 4f2a1812  (2.853704e+09)
+       B        = caae93d3  (-5.720554e+06)
+       REF(real)= -1.632477e+16
+       expected = da67fd29
+       result   = da67fd28
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=198 latency=2
+       A        = c6366070  (-1.167211e+04)
+       B        = 3e31fb86  (1.738110e-01)
+       REF(real)= -2.028742e+03
+       expected = c4fd97bb
+       result   = c4fd97ba
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=199 latency=2
+       A        = c4fbe713  (-2.015221e+03)
+       B        = 4e558631  (8.955853e+08)
+       REF(real)= -1.804802e+12
+       expected = d3d21b4e
+       result   = d3d21b4d
+       GRS      = 111
+       OV/UF    = 0/0
+Progress op=10 : 200/1000
+[FAIL] op=10 case=202 latency=2
+       A        = 4c482cd5  (5.247471e+07)
+       B        = b8b01567  (-8.396320e-05)
+       REF(real)= -4.405945e+03
+       expected = c589af8f
+       result   = c589af8e
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=205 latency=2
+       A        = b87b17a0  (-5.986507e-05)
+       B        = 3b0110a7  (1.969376e-03)
+       REF(real)= -1.178968e-07
+       expected = b3fd2e7a
+       result   = b3fd2e79
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=207 latency=2
+       A        = 4c10886a  (3.788842e+07)
+       B        = b567a258  (-8.629045e-07)
+       REF(real)= -3.269409e+01
+       expected = c202c6c0
+       result   = c202c6bf
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=208 latency=2
+       A        = 45e3b81b  (7.287013e+03)
+       B        = 30058429  (4.857293e-10)
+       REF(real)= 3.539516e-06
+       expected = 366d886b
+       result   = 366d886a
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=209 latency=2
+       A        = cc209e60  (-4.210522e+07)
+       B        = c0e3e12c  (-7.121237e+00)
+       REF(real)= 2.998412e+08
+       expected = 4d8ef9b6
+       result   = 4d8ef9b5
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=210 latency=2
+       A        = 393d71d4  (1.806685e-04)
+       B        = 4c48e7d5  (5.266620e+07)
+       REF(real)= 9.515122e+03
+       expected = 4614ac7d
+       result   = 4614ac7c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=211 latency=2
+       A        = 43bababb  (3.734588e+02)
+       B        = 4d2ffd92  (1.845394e+08)
+       REF(real)= 6.891788e+10
+       expected = 51805e9b
+       result   = 51805e9a
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=213 latency=2
+       A        = bbab0036  (-5.218531e-03)
+       B        = c8d1e8fc  (-4.298959e+05)
+       REF(real)= 2.243425e+03
+       expected = 450c36cd
+       result   = 450c36cc
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=215 latency=2
+       A        = 333e5608  (4.431607e-08)
+       B        = cb2f5d6d  (-1.149272e+07)
+       REF(real)= -5.093120e-01
+       expected = bf026246
+       result   = bf026245
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=221 latency=2
+       A        = c7ead6d0  (-1.202376e+05)
+       B        = b2e61f01  (-2.678962e-08)
+       REF(real)= 3.221121e-03
+       expected = 3b531970
+       result   = 3b53196f
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=222 latency=2
+       A        = 3c645ec7  (1.393861e-02)
+       B        = b882082b  (-6.200404e-05)
+       REF(real)= -8.642503e-07
+       expected = b567fed5
+       result   = b567fed4
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=223 latency=2
+       A        = c8665104  (-2.358441e+05)
+       B        = b161b12f  (-3.284253e-09)
+       REF(real)= 7.745715e-04
+       expected = 3a4b0c9d
+       result   = 3a4b0c9c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=224 latency=2
+       A        = bad7ee48  (-1.647421e-03)
+       B        = 38eeed5d  (1.139294e-04)
+       REF(real)= -1.876897e-07
+       expected = b44987bd
+       result   = b44987bc
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=225 latency=2
+       A        = 455c8aaa  (3.528667e+03)
+       B        = b3ed8cd5  (-1.106179e-07)
+       REF(real)= -3.903337e-04
+       expected = b9cca5b3
+       result   = b9cca5b2
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=226 latency=2
+       A        = 38aa1f70  (8.112087e-05)
+       B        = c3ee7de1  (-4.769834e+02)
+       REF(real)= -3.869331e-02
+       expected = bd1e7ce1
+       result   = bd1e7ce0
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=228 latency=2
+       A        = cbca2ddf  (-2.650003e+07)
+       B        = 3ba04da1  (4.892067e-03)
+       REF(real)= -1.296399e+05
+       expected = c7fd33f5
+       result   = c7fd33f4
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=234 latency=2
+       A        = cdf38713  (-5.107145e+08)
+       B        = 423542b2  (4.531513e+01)
+       REF(real)= -2.314309e+10
+       expected = d0ac6df3
+       result   = d0ac6df2
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=236 latency=2
+       A        = b646c06f  (-2.961631e-06)
+       B        = 438ad85b  (2.776903e+02)
+       REF(real)= -8.224161e-04
+       expected = ba57976a
+       result   = ba579769
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=237 latency=2
+       A        = 319e491e  (4.606718e-09)
+       B        = 3c2c9f36  (1.053601e-02)
+       REF(real)= 4.853640e-11
+       expected = 2e557722
+       result   = 2e557721
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=240 latency=2
+       A        = c70f56ac  (-3.669467e+04)
+       B        = 3bcf4585  (6.325426e-03)
+       REF(real)= -2.321094e+02
+       expected = c3681c04
+       result   = c3681c03
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=241 latency=2
+       A        = b75e2988  (-1.324190e-05)
+       B        = 3502a856  (4.867373e-07)
+       REF(real)= -6.445328e-12
+       expected = ace2c65a
+       result   = ace2c659
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=243 latency=2
+       A        = ba39d17e  (-7.088407e-04)
+       B        = c8bc40dc  (-3.855429e+05)
+       REF(real)= 2.732885e+02
+       expected = 4388a4ed
+       result   = 4388a4ec
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=244 latency=2
+       A        = b9519ff1  (-1.999138e-04)
+       B        = cefea1ec  (-2.136012e+09)
+       REF(real)= 4.270182e+05
+       expected = 48d08148
+       result   = 48d08147
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=246 latency=2
+       A        = 315f487d  (3.249198e-09)
+       B        = c7d6723f  (-1.097965e+05)
+       REF(real)= -3.567505e-04
+       expected = b9bb0a3e
+       result   = b9bb0a3d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=248 latency=2
+       A        = b6dabb60  (-6.518720e-06)
+       B        = b2a48d4c  (-1.915637e-08)
+       REF(real)= 1.248750e-13
+       expected = 2a0c98c4
+       result   = 2a0c98c3
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=251 latency=2
+       A        = 39ad446e  (3.304812e-04)
+       B        = c50917e4  (-2.193493e+03)
+       REF(real)= -7.249082e-01
+       expected = bf399395
+       result   = bf399394
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=252 latency=2
+       A        = 3ca3cb6b  (1.999446e-02)
+       B        = c468a494  (-9.305715e+02)
+       REF(real)= -1.860627e+01
+       expected = c194d9a6
+       result   = c194d9a5
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=254 latency=2
+       A        = 3c18ae17  (9.318850e-03)
+       B        = ca658e44  (-3.761041e+06)
+       REF(real)= -3.504858e+04
+       expected = c708e894
+       result   = c708e893
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=255 latency=2
+       A        = 401fef19  (2.498968e+00)
+       B        = c3b91d0a  (-3.702269e+02)
+       REF(real)= -9.251852e+02
+       expected = c4674bdb
+       result   = c4674bda
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=257 latency=2
+       A        = 3a2d7431  (6.616740e-04)
+       B        = 374b34ad  (1.211201e-05)
+       REF(real)= 8.014201e-09
+       expected = 3209aed4
+       result   = 3209aed3
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=258 latency=2
+       A        = 46c80618  (2.560305e+04)
+       B        = c6f57b5d  (-3.142168e+04)
+       REF(real)= -8.044908e+08
+       expected = ce3fce39
+       result   = ce3fce38
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=260 latency=2
+       A        = 37b641f7  (2.172681e-05)
+       B        = 31f5e6f3  (7.156694e-09)
+       REF(real)= 1.554921e-13
+       expected = 2a2f118e
+       result   = 2a2f118d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=261 latency=2
+       A        = 3acbdd02  (1.555354e-03)
+       B        = 362c906b  (2.571406e-06)
+       REF(real)= 3.999446e-09
+       expected = 31896b7f
+       result   = 31896b7e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=262 latency=2
+       A        = 3dfea119  (1.243307e-01)
+       B        = 3fe92524  (1.821446e+00)
+       REF(real)= 2.264617e-01
+       expected = 3e67e591
+       result   = 3e67e590
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=263 latency=2
+       A        = cb99c5b6  (-2.015524e+07)
+       B        = c05b7c36  (-3.429456e+00)
+       REF(real)= 6.912153e+07
+       expected = 4c83d6bf
+       result   = 4c83d6be
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=264 latency=2
+       A        = 3dcde8ac  (1.005414e-01)
+       B        = b31a4ce9  (-3.592587e-08)
+       REF(real)= -3.612039e-09
+       expected = b17837a8
+       result   = b17837a7
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=266 latency=2
+       A        = be7f9f75  (-2.496317e-01)
+       B        = 3b7a2e89  (3.817471e-03)
+       REF(real)= -9.529618e-04
+       expected = ba79d030
+       result   = ba79d02f
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=271 latency=2
+       A        = 3113c443  (2.150288e-09)
+       B        = 3a667bf8  (8.792276e-04)
+       REF(real)= 1.890592e-12
+       expected = 2c0509e3
+       result   = 2c0509e2
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=272 latency=2
+       A        = b667b3ec  (-3.452641e-06)
+       B        = 3f94c6b1  (1.162314e+00)
+       REF(real)= -4.013052e-06
+       expected = b686a7da
+       result   = b686a7d9
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=274 latency=2
+       A        = b6094262  (-2.045323e-06)
+       B        = caa6e009  (-5.468164e+06)
+       REF(real)= 1.118416e+01
+       expected = 4132f255
+       result   = 4132f254
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=275 latency=2
+       A        = 3613a73e  (2.200205e-06)
+       B        = 458a43d2  (4.424478e+03)
+       REF(real)= 9.734760e-03
+       expected = 3c1f7e8b
+       result   = 3c1f7e8a
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=276 latency=2
+       A        = 314013de  (2.795097e-09)
+       B        = ba6e1b0e  (-9.083011e-04)
+       REF(real)= -2.538790e-12
+       expected = ac32a6c5
+       result   = ac32a6c4
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=281 latency=2
+       A        = b3d79376  (-1.003854e-07)
+       B        = 34e7f6a6  (4.320656e-07)
+       REF(real)= -4.337308e-14
+       expected = a94355c3
+       result   = a94355c2
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=282 latency=2
+       A        = 4b6df247  (1.559406e+07)
+       B        = bdf88f87  (-1.213675e-01)
+       REF(real)= -1.892612e+06
+       expected = c9e7081d
+       result   = c9e7081c
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=284 latency=2
+       A        = 3f696efa  (9.118496e-01)
+       B        = 36730f9e  (3.621891e-06)
+       REF(real)= 3.302620e-06
+       expected = 365da295
+       result   = 365da294
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=295 latency=2
+       A        = 400cd304  (2.200379e+00)
+       B        = b5cd1950  (-1.528106e-06)
+       REF(real)= -3.362412e-06
+       expected = b661a5ce
+       result   = b661a5cd
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=297 latency=2
+       A        = 3d1c19d8  (3.811058e-02)
+       B        = c9601b55  (-9.179413e+05)
+       REF(real)= -3.498328e+04
+       expected = c708a748
+       result   = c708a747
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=298 latency=2
+       A        = 4f2c7650  (2.893435e+09)
+       B        = cabedcbc  (-6.254174e+06)
+       REF(real)= -1.809605e+16
+       expected = da809484
+       result   = da809483
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=299 latency=2
+       A        = be411407  (-1.885530e-01)
+       B        = b18c6aa6  (-4.086661e-09)
+       REF(real)= 7.705520e-10
+       expected = 3053cec7
+       result   = 3053cec6
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=300 latency=2
+       A        = b4e20919  (-4.210240e-07)
+       B        = 47efaa90  (1.227091e+05)
+       REF(real)= -5.166349e-02
+       expected = bd539d18
+       result   = bd539d17
+       GRS      = 101
+       OV/UF    = 0/0
+Progress op=10 : 300/1000
+[FAIL] op=10 case=302 latency=2
+       A        = bbb38eaf  (-5.479656e-03)
+       B        = b1455ffe  (-2.872184e-09)
+       REF(real)= 1.573858e-11
+       expected = 2d8a7021
+       result   = 2d8a7020
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=304 latency=2
+       A        = 432ccefa  (1.728085e+02)
+       B        = 449609e2  (1.200309e+03)
+       REF(real)= 2.074236e+05
+       expected = 484a8fe5
+       result   = 484a8fe4
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=306 latency=2
+       A        = c2584b4c  (-5.407353e+01)
+       B        = cc6d7f33  (-6.225838e+07)
+       REF(real)= 3.366531e+09
+       expected = 4f48a92e
+       result   = 4f48a92d
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=312 latency=2
+       A        = c8929395  (-3.001887e+05)
+       B        = 3e7d2e54  (2.472470e-01)
+       REF(real)= -7.422076e+04
+       expected = c790f661
+       result   = c790f660
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=313 latency=2
+       A        = c80a4cd2  (-1.416193e+05)
+       B        = bb97afae  (-4.629097e-03)
+       REF(real)= 6.555694e+02
+       expected = 4423e471
+       result   = 4423e470
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=314 latency=2
+       A        = 4d832b36  (2.750809e+08)
+       B        = 43351a6d  (1.811032e+02)
+       REF(real)= 4.981804e+10
+       expected = 5139962f
+       result   = 5139962e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=315 latency=2
+       A        = 444d11da  (8.202789e+02)
+       B        = c97bbcd3  (-1.031117e+06)
+       REF(real)= -8.458037e+08
+       expected = ce49a7c3
+       result   = ce49a7c2
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=317 latency=2
+       A        = 4baece19  (2.291205e+07)
+       B        = c13aadf8  (-1.166747e+01)
+       REF(real)= -2.673257e+08
+       expected = cd7ef112
+       result   = cd7ef111
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=318 latency=2
+       A        = ca9b8fa5  (-5.097426e+06)
+       B        = 3643d8b4  (2.918340e-06)
+       REF(real)= -1.487602e+01
+       expected = c16e0433
+       result   = c16e0432
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=319 latency=2
+       A        = c0ab6b58  (-5.356853e+00)
+       B        = 4855329f  (2.183145e+05)
+       REF(real)= -1.169479e+06
+       expected = c98ec236
+       result   = c98ec235
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=322 latency=2
+       A        = 3576163a  (9.167449e-07)
+       B        = bbd2b53e  (-6.430297e-03)
+       REF(real)= -5.894942e-09
+       expected = b1ca8c75
+       result   = b1ca8c74
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=323 latency=2
+       A        = 3fd09182  (1.629441e+00)
+       B        = 4e869167  (1.128838e+09)
+       REF(real)= 1.839374e+09
+       expected = 4edb4541
+       result   = 4edb4540
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=324 latency=2
+       A        = 458ca84b  (4.501037e+03)
+       B        = c06c5897  (-3.692907e+00)
+       REF(real)= -1.662191e+04
+       expected = c681dbd2
+       result   = c681dbd1
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=328 latency=2
+       A        = 351280d0  (5.457669e-07)
+       B        = cf4eaf36  (-3.467589e+09)
+       REF(real)= -1.892495e+03
+       expected = c4ec8fd9
+       result   = c4ec8fd8
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=329 latency=2
+       A        = 33aa3347  (7.925569e-08)
+       B        = c6b6b2cc  (-2.338540e+04)
+       REF(real)= -1.853426e-03
+       expected = baf2eea8
+       result   = baf2eea7
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=330 latency=2
+       A        = 4c3a0f77  (4.877462e+07)
+       B        = b2434a98  (-1.136745e-08)
+       REF(real)= -5.544433e-01
+       expected = bf0defff
+       result   = bf0deffe
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=331 latency=2
+       A        = b513bcf1  (-5.503671e-07)
+       B        = b04f7fd4  (-7.548782e-10)
+       REF(real)= 4.154601e-16
+       expected = 25ef7f18
+       result   = 25ef7f17
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=334 latency=2
+       A        = c915be80  (-6.133520e+05)
+       B        = 33744320  (5.687173e-08)
+       REF(real)= -3.488239e-02
+       expected = bd0ee0d6
+       result   = bd0ee0d5
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=338 latency=2
+       A        = 45181315  (2.433193e+03)
+       B        = c5c3da27  (-6.267269e+03)
+       REF(real)= -1.524947e+07
+       expected = cb68b041
+       result   = cb68b040
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=340 latency=2
+       A        = cbfb3bde  (-3.292972e+07)
+       B        = 41784cda  (1.551876e+01)
+       REF(real)= -5.110286e+08
+       expected = cdf3ad6b
+       result   = cdf3ad6a
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=341 latency=2
+       A        = 3c470b87  (1.214874e-02)
+       B        = c9f067b2  (-1.969398e+06)
+       REF(real)= -2.392572e+04
+       expected = c6baeb6f
+       result   = c6baeb6e
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=345 latency=2
+       A        = bc03c9b3  (-8.043694e-03)
+       B        = bce52744  (-2.797282e-02)
+       REF(real)= 2.250049e-04
+       expected = 396bef48
+       result   = 396bef47
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=348 latency=2
+       A        = ce02f64e  (-5.492950e+08)
+       B        = 31a3207c  (4.747617e-09)
+       REF(real)= -2.607842e+00
+       expected = c026e6e4
+       result   = c026e6e3
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=349 latency=2
+       A        = b90da060  (-1.350655e-04)
+       B        = b6625d49  (-3.373092e-06)
+       REF(real)= 4.555885e-10
+       expected = 2ffa7661
+       result   = 2ffa7660
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=350 latency=2
+       A        = bc6a1eec  (-1.428960e-02)
+       B        = 373e9e87  (1.136179e-05)
+       REF(real)= -1.623555e-07
+       expected = b42e53ee
+       result   = b42e53ed
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=351 latency=2
+       A        = ba7d4983  (-9.662138e-04)
+       B        = 3c99de2f  (1.878270e-02)
+       REF(real)= -1.814811e-05
+       expected = b7983cc4
+       result   = b7983cc3
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=354 latency=2
+       A        = 46063e1e  (8.591529e+03)
+       B        = bb28f200  (-2.577901e-03)
+       REF(real)= -2.214811e+01
+       expected = c1b12f55
+       result   = c1b12f54
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=358 latency=2
+       A        = 3364a030  (5.323108e-08)
+       B        = 330e0440  (3.306582e-08)
+       REF(real)= 1.760129e-15
+       expected = 26fda94d
+       result   = 26fda94c
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=360 latency=2
+       A        = b95fefbb  (-2.135624e-04)
+       B        = c7aa812b  (-8.729834e+04)
+       REF(real)= 1.864365e+01
+       expected = 41952630
+       result   = 4195262f
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=361 latency=2
+       A        = 3e9f0c28  (3.106396e-01)
+       B        = c3cb0923  (-4.060714e+02)
+       REF(real)= -1.261419e+02
+       expected = c2fc48a2
+       result   = c2fc48a1
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=363 latency=2
+       A        = bbf123d8  (-7.359009e-03)
+       B        = 484452f3  (2.010358e+05)
+       REF(real)= -1.479424e+03
+       expected = c4b8ed94
+       result   = c4b8ed93
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=364 latency=2
+       A        = bb1051e7  (-2.202147e-03)
+       B        = be237f97  (-1.596664e-01)
+       REF(real)= 3.516090e-04
+       expected = 39b85828
+       result   = 39b85827
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=369 latency=2
+       A        = b3f7d1b7  (-1.153998e-07)
+       B        = cb07452c  (-8.865068e+06)
+       REF(real)= 1.023027e+00
+       expected = 3f82f28e
+       result   = 3f82f28d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=370 latency=2
+       A        = b0089a70  (-4.969598e-10)
+       B        = b569f892  (-8.716098e-07)
+       REF(real)= 4.331550e-16
+       expected = 25f9b267
+       result   = 25f9b266
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=371 latency=2
+       A        = 3941a8ce  (1.846880e-04)
+       B        = cc7ecdc0  (-6.679526e+07)
+       REF(real)= -1.233628e+04
+       expected = c640c122
+       result   = c640c121
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=372 latency=2
+       A        = 4747f00b  (5.118404e+04)
+       B        = bd930752  (-7.179131e-02)
+       REF(real)= -3.674569e+03
+       expected = c565a91c
+       result   = c565a91b
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=374 latency=2
+       A        = 4587485c  (4.329045e+03)
+       B        = ca524827  (-3.445258e+06)
+       REF(real)= -1.491468e+10
+       expected = d05e3ef9
+       result   = d05e3ef8
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=378 latency=2
+       A        = 42efdbfb  (1.199296e+02)
+       B        = 370d77a9  (8.432115e-06)
+       REF(real)= 1.011261e-03
+       expected = 3a848c47
+       result   = 3a848c46
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=381 latency=2
+       A        = 317b3256  (3.655392e-09)
+       B        = 378fcb44  (1.714158e-05)
+       REF(real)= 6.265920e-14
+       expected = 298d1892
+       result   = 298d1891
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=382 latency=2
+       A        = 33c16e65  (9.007343e-08)
+       B        = b74122ea  (-1.151183e-05)
+       REF(real)= -1.036910e-12
+       expected = ab91ee9c
+       result   = ab91ee9b
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=391 latency=2
+       A        = c4f67ce6  (-1.971903e+03)
+       B        = b7dc6bf9  (-2.627632e-05)
+       REF(real)= 5.181436e-02
+       expected = 3d543b4c
+       result   = 3d543b4b
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=393 latency=2
+       A        = c43aa773  (-7.466164e+02)
+       B        = cc5d209d  (-5.796722e+07)
+       REF(real)= 4.327928e+10
+       expected = 51213a56
+       result   = 51213a55
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=395 latency=2
+       A        = 4b19498f  (1.004584e+07)
+       B        = c02ae4fd  (-2.670226e+00)
+       REF(real)= -2.682466e+07
+       expected = cbcca7ec
+       result   = cbcca7eb
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=396 latency=2
+       A        = b11e94da  (-2.307664e-09)
+       B        = ce7b07c8  (-1.052898e+09)
+       REF(real)= 2.429734e+00
+       expected = 401b80c4
+       result   = 401b80c3
+       GRS      = 101
+       OV/UF    = 0/0
+Progress op=10 : 400/1000
+[FAIL] op=10 case=401 latency=2
+       A        = b5c71c21  (-1.483484e-06)
+       B        = bc2acdda  (-1.042506e-02)
+       REF(real)= 1.546540e-08
+       expected = 3284d8c9
+       result   = 3284d8c8
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=403 latency=2
+       A        = b2068066  (-7.829021e-09)
+       B        = ccd3d1ed  (-1.110547e+08)
+       REF(real)= 8.694495e-01
+       expected = 3f5e943f
+       result   = 3f5e943e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=405 latency=2
+       A        = c70d8f7a  (-3.623948e+04)
+       B        = c8c22516  (-3.976087e+05)
+       REF(real)= 1.440913e+10
+       expected = 5056b679
+       result   = 5056b678
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=407 latency=2
+       A        = b0312c6f  (-6.445537e-10)
+       B        = bd0380f6  (-3.210541e-02)
+       REF(real)= 2.069366e-11
+       expected = 2db605fb
+       result   = 2db605fa
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=410 latency=2
+       A        = c9c7537c  (-1.632880e+06)
+       B        = 45a9429c  (5.416326e+03)
+       REF(real)= -8.844208e+09
+       expected = d003c9fa
+       result   = d003c9f9
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=412 latency=2
+       A        = 34af7e8f  (3.268837e-07)
+       B        = c7223411  (-4.152407e+04)
+       REF(real)= -1.357354e-02
+       expected = bc5e6390
+       result   = bc5e638f
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=413 latency=2
+       A        = 443785e6  (7.340922e+02)
+       B        = 3982fbda  (2.498318e-04)
+       REF(real)= 1.833995e-01
+       expected = 3e3bcd17
+       result   = 3e3bcd16
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=415 latency=2
+       A        = caf94435  (-8.167962e+06)
+       B        = c2d075ac  (-1.042298e+02)
+       REF(real)= 8.513453e+08
+       expected = 4e4af9ff
+       result   = 4e4af9fe
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=416 latency=2
+       A        = 4333188b  (1.790959e+02)
+       B        = 4cccf508  (1.074566e+08)
+       REF(real)= 1.924503e+10
+       expected = 508f62fb
+       result   = 508f62fa
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=417 latency=2
+       A        = c8574828  (-2.204486e+05)
+       B        = bd8db8cd  (-6.920014e-02)
+       REF(real)= 1.525507e+04
+       expected = 466e5c4d
+       result   = 466e5c4c
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=419 latency=2
+       A        = 473ef3a1  (4.888363e+04)
+       B        = b82af92d  (-4.076322e-05)
+       REF(real)= -1.992654e+00
+       expected = bfff0f4b
+       result   = bfff0f4a
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=420 latency=2
+       A        = 3609e6de  (2.054897e-06)
+       B        = 4c5a240b  (5.718430e+07)
+       REF(real)= 1.175079e+02
+       expected = 42eb0407
+       result   = 42eb0406
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=423 latency=2
+       A        = 4a748af1  (4.006588e+06)
+       B        = b47504c8  (-2.281914e-07)
+       REF(real)= -9.142691e-01
+       expected = bf6a0d8a
+       result   = bf6a0d89
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=424 latency=2
+       A        = 47910675  (7.425291e+04)
+       B        = 44a563e1  (1.323121e+03)
+       REF(real)= 9.824561e+07
+       expected = 4cbb637d
+       result   = 4cbb637c
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=426 latency=2
+       A        = 39a75786  (3.191793e-04)
+       B        = c44f13b6  (-8.283080e+02)
+       REF(real)= -2.643788e-01
+       expected = be875ca8
+       result   = be875ca7
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=429 latency=2
+       A        = cf0736d9  (-2.268519e+09)
+       B        = ca8abb88  (-4.545988e+06)
+       REF(real)= 1.031266e+16
+       expected = 5a128d3c
+       result   = 5a128d3b
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=431 latency=2
+       A        = c503fda0  (-2.111852e+03)
+       B        = cea6323e  (-1.394155e+09)
+       REF(real)= 2.944249e+12
+       expected = 542b60bb
+       result   = 542b60ba
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=432 latency=2
+       A        = 3e80bfeb  (2.514642e-01)
+       B        = be708d9e  (-2.349152e-01)
+       REF(real)= -5.907277e-02
+       expected = bd71f64b
+       result   = bd71f64a
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=433 latency=2
+       A        = 350d2688  (5.258266e-07)
+       B        = 3cdc148a  (2.686526e-02)
+       REF(real)= 1.412647e-08
+       expected = 3272b0e0
+       result   = 3272b0df
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=434 latency=2
+       A        = 357bea2e  (9.384556e-07)
+       B        = 48a5720a  (3.388323e+05)
+       REF(real)= 3.179791e-01
+       expected = 3ea2ce28
+       result   = 3ea2ce27
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=438 latency=2
+       A        = 476fcbbb  (6.138773e+04)
+       B        = ba9eb203  (-1.210749e-03)
+       REF(real)= -7.432516e+01
+       expected = c294a67c
+       result   = c294a67b
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=440 latency=2
+       A        = b5db4577  (-1.633699e-06)
+       B        = bdbb721d  (-9.152625e-02)
+       REF(real)= 1.495263e-07
+       expected = 34208d7c
+       result   = 34208d7b
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=443 latency=2
+       A        = cd8da97d  (-2.970869e+08)
+       B        = 45b60a2d  (5.825272e+03)
+       REF(real)= -1.730612e+12
+       expected = d3c97841
+       result   = d3c97840
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=444 latency=2
+       A        = 464ce368  (1.311285e+04)
+       B        = 34ef5da0  (4.458534e-07)
+       REF(real)= 5.846409e-03
+       expected = 3bbf933d
+       result   = 3bbf933c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=445 latency=2
+       A        = bc029677  (-7.970444e-03)
+       B        = c87bea7d  (-2.579620e+05)
+       REF(real)= 2.056071e+03
+       expected = 45008124
+       result   = 45008123
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=446 latency=2
+       A        = 420a507c  (3.457860e+01)
+       B        = c95d6cda  (-9.069576e+05)
+       REF(real)= -3.136132e+07
+       expected = cbef4496
+       result   = cbef4495
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=448 latency=2
+       A        = c2b995ab  (-9.279232e+01)
+       B        = 4553164c  (3.377394e+03)
+       REF(real)= -3.133962e+05
+       expected = c8990686
+       result   = c8990685
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=453 latency=2
+       A        = be132a15  (-1.437152e-01)
+       B        = 45b08cf7  (5.649621e+03)
+       REF(real)= -8.119365e+02
+       expected = c44afbef
+       result   = c44afbee
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=455 latency=2
+       A        = 3935597d  (1.729484e-04)
+       B        = 3257605f  (1.253656e-08)
+       REF(real)= 2.168178e-12
+       expected = 2c18926d
+       result   = 2c18926c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=457 latency=2
+       A        = cbe61caa  (-3.016124e+07)
+       B        = cc7a8f84  (-6.568296e+07)
+       REF(real)= 1.981079e+15
+       expected = 58e138ff
+       result   = 58e138fe
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=458 latency=2
+       A        = cd37ee2d  (-1.928650e+08)
+       B        = 30d27f49  (1.531569e-09)
+       REF(real)= -2.953860e-01
+       expected = be973cd5
+       result   = be973cd4
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=459 latency=2
+       A        = 4249d429  (5.045719e+01)
+       B        = c14d4b3b  (-1.283087e+01)
+       REF(real)= -6.474095e+02
+       expected = c421da35
+       result   = c421da34
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=460 latency=2
+       A        = 33e95cf7  (1.086682e-07)
+       B        = 46e55b69  (2.935771e+04)
+       REF(real)= 3.190248e-03
+       expected = 3b51137d
+       result   = 3b51137c
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=464 latency=2
+       A        = 48259b24  (1.695806e+05)
+       B        = b7dc8e9c  (-2.629245e-05)
+       REF(real)= -4.458689e+00
+       expected = c08ead94
+       result   = c08ead93
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=465 latency=2
+       A        = c609f144  (-8.828316e+03)
+       B        = 3fdb1a5f  (1.711742e+00)
+       REF(real)= -1.511180e+04
+       expected = c66c1f36
+       result   = c66c1f35
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=466 latency=2
+       A        = c7feb37b  (-1.304070e+05)
+       B        = c23ad1f3  (-4.670503e+01)
+       REF(real)= 6.090661e+06
+       expected = 4ab9df4a
+       result   = 4ab9df49
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=467 latency=2
+       A        = 4e206c13  (6.728593e+08)
+       B        = 40c31771  (6.096611e+00)
+       REF(real)= 4.102162e+09
+       expected = 4f748206
+       result   = 4f748205
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=469 latency=2
+       A        = b5cf13f8  (-1.542851e-06)
+       B        = 44eae3ef  (1.879123e+03)
+       REF(real)= -2.899207e-03
+       expected = bb3e00a1
+       result   = bb3e00a0
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=470 latency=2
+       A        = 3ad92a97  (1.656848e-03)
+       B        = c3588605  (-2.165235e+02)
+       REF(real)= -3.587465e-01
+       expected = beb7ada0
+       result   = beb7ad9f
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=471 latency=2
+       A        = be42c98e  (-1.902220e-01)
+       B        = ba983746  (-1.161315e-03)
+       REF(real)= 2.209077e-04
+       expected = 3967a376
+       result   = 3967a375
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=474 latency=2
+       A        = 3a78841f  (9.480137e-04)
+       B        = b3801cf6  (-5.965732e-08)
+       REF(real)= -5.655596e-11
+       expected = ae78bc5a
+       result   = ae78bc59
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=478 latency=2
+       A        = 3c7be022  (1.537326e-02)
+       B        = 42f733e4  (1.236013e+02)
+       REF(real)= 1.900156e+00
+       expected = 3ff3384f
+       result   = 3ff3384e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=479 latency=2
+       A        = 43404339  (1.922626e+02)
+       B        = cc6e0aed  (-6.240146e+07)
+       REF(real)= -1.199747e+10
+       expected = d032c6b4
+       result   = d032c6b3
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=483 latency=2
+       A        = 34439eda  (1.821858e-07)
+       B        = c8ac00d2  (-3.522626e+05)
+       REF(real)= -6.417724e-02
+       expected = bd836f5b
+       result   = bd836f5a
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=484 latency=2
+       A        = 436fce8a  (2.398068e+02)
+       B        = 33b61683  (8.479130e-08)
+       REF(real)= 2.033353e-05
+       expected = 37aa91ed
+       result   = 37aa91ec
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=486 latency=2
+       A        = 414722b5  (1.244597e+01)
+       B        = bf365b76  (-7.123331e-01)
+       REF(real)= -8.865679e+00
+       expected = c10dd9d2
+       result   = c10dd9d1
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=488 latency=2
+       A        = 4bb51f6f  (2.374013e+07)
+       B        = 47cf4568  (1.061228e+05)
+       REF(real)= 2.519369e+12
+       expected = 5412a586
+       result   = 5412a585
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=489 latency=2
+       A        = b1f5f607  (-7.158409e-09)
+       B        = b585e6f7  (-9.976492e-07)
+       REF(real)= 7.141580e-15
+       expected = 2800a6ba
+       result   = 2800a6b9
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=491 latency=2
+       A        = b3d23a2e  (-9.789470e-08)
+       B        = 4e891ee5  (1.150252e+09)
+       REF(real)= -1.126035e+02
+       expected = c2e13503
+       result   = c2e13502
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=492 latency=2
+       A        = bc25e37b  (-1.012504e-02)
+       B        = 42f822e5  (1.240682e+02)
+       REF(real)= -1.256195e+00
+       expected = bfa0cafc
+       result   = bfa0cafb
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=494 latency=2
+       A        = b3a3f03c  (-7.633977e-08)
+       B        = b472fd9a  (-2.263027e-07)
+       REF(real)= 1.727589e-14
+       expected = 289b9b80
+       result   = 289b9b7f
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=498 latency=2
+       A        = b4323c2d  (-1.659943e-07)
+       B        = 3b9fed0e  (4.880554e-03)
+       REF(real)= -8.101443e-10
+       expected = b05eb0d7
+       result   = b05eb0d6
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=499 latency=2
+       A        = b8758209  (-5.853366e-05)
+       B        = c45d5bfd  (-8.854373e+02)
+       REF(real)= 5.182788e-02
+       expected = 3d54497a
+       result   = 3d544979
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=500 latency=2
+       A        = c40a41b4  (-5.530266e+02)
+       B        = 4ae36aa3  (7.451986e+06)
+       REF(real)= -4.121146e+09
+       expected = cf75a3b4
+       result   = cf75a3b3
+       GRS      = 101
+       OV/UF    = 0/0
+Progress op=10 : 500/1000
+[FAIL] op=10 case=502 latency=2
+       A        = c73b4a41  (-4.794625e+04)
+       B        = 30ca1dbe  (1.470589e-09)
+       REF(real)= -7.050922e-05
+       expected = b893de5a
+       result   = b893de59
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=506 latency=2
+       A        = c7523deb  (-5.382192e+04)
+       B        = c3bb2bf9  (-3.743435e+02)
+       REF(real)= 2.014789e+07
+       expected = 4b99b758
+       result   = 4b99b757
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=507 latency=2
+       A        = 3f2e76bb  (6.814992e-01)
+       B        = 427db03e  (6.342211e+01)
+       REF(real)= 4.322212e+01
+       expected = 422ce373
+       result   = 422ce372
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=512 latency=2
+       A        = caecce74  (-7.759674e+06)
+       B        = 4a72990e  (3.974724e+06)
+       REF(real)= -3.084256e+13
+       expected = d5e068be
+       result   = d5e068bd
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=516 latency=2
+       A        = 4e01e2ea  (5.447830e+08)
+       B        = b129b14c  (-2.469352e-09)
+       REF(real)= -1.345261e+00
+       expected = bfac3182
+       result   = bfac3181
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=518 latency=2
+       A        = 467da2c3  (1.623269e+04)
+       B        = cafbce2d  (-8.251158e+06)
+       REF(real)= -1.339385e+11
+       expected = d1f97adb
+       result   = d1f97ada
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=521 latency=2
+       A        = b7ac90b1  (-2.057137e-05)
+       B        = 4d8eff96  (2.998893e+08)
+       REF(real)= -6.169136e+03
+       expected = c5c0c917
+       result   = c5c0c916
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=522 latency=2
+       A        = 467b6029  (1.608804e+04)
+       B        = bf9898d4  (-1.192164e+00)
+       REF(real)= -1.917958e+04
+       expected = c695d72a
+       result   = c695d729
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=523 latency=2
+       A        = c2a56144  (-8.268997e+01)
+       B        = 45b6b263  (5.846298e+03)
+       REF(real)= -4.834302e+05
+       expected = c8ec0cc8
+       result   = c8ec0cc7
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=529 latency=2
+       A        = c427c49e  (-6.710721e+02)
+       B        = 30c26981  (1.414534e-09)
+       REF(real)= -9.492546e-07
+       expected = b57ed048
+       result   = b57ed047
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=532 latency=2
+       A        = 431eb59a  (1.587094e+02)
+       B        = b570e455  (-8.973923e-07)
+       REF(real)= -1.424246e-04
+       expected = b91557cf
+       result   = b91557ce
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=534 latency=2
+       A        = 4bd62b9d  (2.807174e+07)
+       B        = bbb372cc  (-5.476331e-03)
+       REF(real)= -1.537301e+05
+       expected = c8162089
+       result   = c8162088
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=535 latency=2
+       A        = cbdf6532  (-2.928087e+07)
+       B        = 4ed3ecb3  (1.777752e+09)
+       REF(real)= -5.205413e+16
+       expected = db38eef6
+       result   = db38eef5
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=537 latency=2
+       A        = c2aa6449  (-8.519587e+01)
+       B        = 3ba6b018  (5.086910e-03)
+       REF(real)= -4.333837e-01
+       expected = bedde479
+       result   = bedde478
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=538 latency=2
+       A        = 39acb4f9  (3.294123e-04)
+       B        = 3855f874  (5.101455e-05)
+       REF(real)= 1.680482e-08
+       expected = 32905a31
+       result   = 32905a30
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=540 latency=2
+       A        = c341916c  (-1.935681e+02)
+       B        = c38d5832  (-2.826890e+02)
+       REF(real)= 5.471956e+04
+       expected = 4755bf91
+       result   = 4755bf90
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=543 latency=2
+       A        = 43d23e92  (4.204888e+02)
+       B        = 43f2a146  (4.852599e+02)
+       REF(real)= 2.040464e+05
+       expected = 48474399
+       result   = 48474398
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=548 latency=2
+       A        = 4f28b68a  (2.830535e+09)
+       B        = 372109d1  (9.598633e-06)
+       REF(real)= 2.716927e+04
+       expected = 46d4428a
+       result   = 46d44289
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=549 latency=2
+       A        = 3195f1b8  (4.363951e-09)
+       B        = 4ab8296f  (6.034616e+06)
+       REF(real)= 2.633477e-02
+       expected = 3cd7bc02
+       result   = 3cd7bc01
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=550 latency=2
+       A        = b88ce207  (-6.717821e-05)
+       B        = ca590459  (-3.555606e+06)
+       REF(real)= 2.388593e+02
+       expected = 436edbf9
+       result   = 436edbf8
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=551 latency=2
+       A        = cc8844e8  (-7.144429e+07)
+       B        = b0b8f2ba  (-1.345675e-09)
+       REF(real)= 9.614079e-02
+       expected = 3dc4e576
+       result   = 3dc4e575
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=553 latency=2
+       A        = bc49eb1f  (-1.232412e-02)
+       B        = 3a55d524  (8.157066e-04)
+       REF(real)= -1.005287e-05
+       expected = b728a8be
+       result   = b728a8bd
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=555 latency=2
+       A        = 408347bb  (4.102506e+00)
+       B        = 43960431  (3.000327e+02)
+       REF(real)= 1.230886e+03
+       expected = 4499dc5c
+       result   = 4499dc5b
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=556 latency=2
+       A        = 348d2b0a  (2.629461e-07)
+       B        = 3218f596  (8.903404e-09)
+       REF(real)= 2.341116e-15
+       expected = 2728b1f6
+       result   = 2728b1f5
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=560 latency=2
+       A        = 45a0b091  (5.142071e+03)
+       B        = 3a8712bb  (1.030526e-03)
+       REF(real)= 5.299040e+00
+       expected = 40a991bd
+       result   = 40a991bc
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=563 latency=2
+       A        = b76fee29  (-1.430096e-05)
+       B        = cd1720ef  (-1.584699e+08)
+       REF(real)= 2.266271e+03
+       expected = 450da458
+       result   = 450da457
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=564 latency=2
+       A        = cae7e9d7  (-7.599340e+06)
+       B        = c9221e07  (-6.640324e+05)
+       REF(real)= 5.046208e+12
+       expected = 5492dd2e
+       result   = 5492dd2d
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=565 latency=2
+       A        = 3ec7fac1  (3.905850e-01)
+       B        = c91b20e6  (-6.354064e+05)
+       REF(real)= -2.481802e+05
+       expected = c8725d0c
+       result   = c8725d0b
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=566 latency=2
+       A        = c0e9cb10  (-7.306038e+00)
+       B        = 3754864d  (1.266745e-05)
+       REF(real)= -9.254890e-05
+       expected = b8c216d0
+       result   = b8c216cf
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=567 latency=2
+       A        = 3901d258  (1.238076e-04)
+       B        = 3750687f  (1.242210e-05)
+       REF(real)= 1.537950e-09
+       expected = 30d35fcb
+       result   = 30d35fca
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=574 latency=2
+       A        = bc85113c  (-1.624357e-02)
+       B        = b37303b9  (-5.658123e-08)
+       REF(real)= 9.190812e-10
+       expected = 307ca297
+       result   = 307ca296
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=575 latency=2
+       A        = 44475d70  (7.974600e+02)
+       B        = c8cb8df6  (-4.168797e+05)
+       REF(real)= -3.324449e+08
+       expected = cd9e85a6
+       result   = cd9e85a5
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=576 latency=2
+       A        = c2d30688  (-1.055128e+02)
+       B        = ce011a0a  (-5.414918e+08)
+       REF(real)= 5.713430e+10
+       expected = 5154d783
+       result   = 5154d782
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=583 latency=2
+       A        = 47d413ba  (1.085835e+05)
+       B        = c7424fd8  (-4.974384e+04)
+       REF(real)= -5.401358e+09
+       expected = cfa0f918
+       result   = cfa0f917
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=585 latency=2
+       A        = b50e054b  (-5.290682e-07)
+       B        = b71a6ce5  (-9.204469e-06)
+       REF(real)= 4.869792e-12
+       expected = 2cab5731
+       result   = 2cab5730
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=586 latency=2
+       A        = 4941d017  (7.938574e+05)
+       B        = 34ddb51a  (4.129623e-07)
+       REF(real)= 3.278332e-01
+       expected = 3ea7d9c0
+       result   = 3ea7d9bf
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=588 latency=2
+       A        = 3137ee6e  (2.676554e-09)
+       B        = c826ffd7  (-1.710074e+05)
+       REF(real)= -4.577104e-04
+       expected = b9eff8d9
+       result   = b9eff8d8
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=589 latency=2
+       A        = 3e2ef10a  (1.708414e-01)
+       B        = bf474728  (-7.784295e-01)
+       REF(real)= -1.329880e-01
+       expected = be082dff
+       result   = be082dfe
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=590 latency=2
+       A        = b9e241d5  (-4.315513e-04)
+       B        = bc826c53  (-1.592079e-02)
+       REF(real)= 6.870639e-06
+       expected = 36e68a57
+       result   = 36e68a56
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=593 latency=2
+       A        = cca098f4  (-8.419933e+07)
+       B        = 44e0b853  (1.797760e+03)
+       REF(real)= -1.513702e+11
+       expected = d20cf978
+       result   = d20cf977
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=595 latency=2
+       A        = c2154534  (-3.731758e+01)
+       B        = b3b6a389  (-8.504782e-08)
+       REF(real)= 3.173779e-06
+       expected = 3654fd1c
+       result   = 3654fd1b
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=597 latency=2
+       A        = b1c31da9  (-5.678619e-09)
+       B        = 4cc16053  (1.013849e+08)
+       REF(real)= -5.757260e-01
+       expected = bf1362c7
+       result   = bf1362c6
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=599 latency=2
+       A        = c9870060  (-1.105932e+06)
+       B        = b4b6a392  (-3.401915e-07)
+       REF(real)= 3.762287e-01
+       expected = 3ec0a10d
+       result   = 3ec0a10c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=600 latency=2
+       A        = ccad01e6  (-9.070571e+07)
+       B        = 30d1a87f  (1.525464e-09)
+       REF(real)= -1.383683e-01
+       expected = be0db06c
+       result   = be0db06b
+       GRS      = 111
+       OV/UF    = 0/0
+Progress op=10 : 600/1000
+[FAIL] op=10 case=603 latency=2
+       A        = cba04944  (-2.100903e+07)
+       B        = be4e4a2b  (-2.014548e-01)
+       REF(real)= 4.232370e+06
+       expected = 4a812965
+       result   = 4a812964
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=604 latency=2
+       A        = 49a718d0  (1.368858e+06)
+       B        = 4a796b25  (4.086473e+06)
+       REF(real)= 5.593802e+12
+       expected = 54a2cd12
+       result   = 54a2cd11
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=610 latency=2
+       A        = b96281f7  (-2.160146e-04)
+       B        = bf91dda7  (-1.139577e+00)
+       REF(real)= 2.461652e-04
+       expected = 39810fbb
+       result   = 39810fba
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=615 latency=2
+       A        = c6a2a0b0  (-2.081634e+04)
+       B        = c0556972  (-3.334561e+00)
+       REF(real)= 6.941337e+04
+       expected = 478792af
+       result   = 478792ae
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=619 latency=2
+       A        = 455f558d  (3.573347e+03)
+       B        = c6e9ec24  (-2.994207e+04)
+       REF(real)= -1.069934e+08
+       expected = cccc12e0
+       result   = cccc12df
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=620 latency=2
+       A        = 3207724c  (7.884022e-09)
+       B        = 3408c9e7  (1.273944e-07)
+       REF(real)= 1.004380e-15
+       expected = 2690bf17
+       result   = 2690bf16
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=621 latency=2
+       A        = ce8325d5  (-1.100147e+09)
+       B        = c937d6a0  (-7.530020e+05)
+       REF(real)= 8.284131e+14
+       expected = 583c5bfe
+       result   = 583c5bfd
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=624 latency=2
+       A        = cf3d2982  (-3.173614e+09)
+       B        = 3678d44e  (3.707846e-06)
+       REF(real)= -1.176727e+04
+       expected = c637dd16
+       result   = c637dd15
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=627 latency=2
+       A        = c1d55b50  (-2.666959e+01)
+       B        = 42d7e632  (1.079496e+02)
+       REF(real)= -2.878971e+03
+       expected = c533ef8a
+       result   = c533ef89
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=629 latency=2
+       A        = 4e3cfe07  (7.926911e+08)
+       B        = bc1d61ad  (-9.605807e-03)
+       REF(real)= -7.614438e+06
+       expected = cae85fcd
+       result   = cae85fcc
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=632 latency=2
+       A        = 48e6ce57  (4.726907e+05)
+       B        = ce795a9f  (-1.045866e+09)
+       REF(real)= -4.943714e+14
+       expected = d7e0d067
+       result   = d7e0d066
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=633 latency=2
+       A        = 39f8d57f  (4.746131e-04)
+       B        = 3e9917da  (2.990101e-01)
+       REF(real)= 1.419141e-04
+       expected = 3914cec8
+       result   = 3914cec7
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=634 latency=2
+       A        = 31409dfb  (2.802948e-09)
+       B        = b3e4e1c5  (-1.065814e-07)
+       REF(real)= -2.987422e-16
+       expected = a5ac3693
+       result   = a5ac3692
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=635 latency=2
+       A        = 48f10ea5  (4.936852e+05)
+       B        = b4e1fc4f  (-4.209309e-07)
+       REF(real)= -2.078074e-01
+       expected = be54cb74
+       result   = be54cb73
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=638 latency=2
+       A        = 3fb6f02d  (1.429205e+00)
+       B        = 42ec4c90  (1.181495e+02)
+       REF(real)= 1.688599e+02
+       expected = 4328dc20
+       result   = 4328dc1f
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=639 latency=2
+       A        = bbc9d851  (-6.159820e-03)
+       B        = c76aa3b0  (-6.006769e+04)
+       REF(real)= 3.700062e+02
+       expected = 43b900ca
+       result   = 43b900c9
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=641 latency=2
+       A        = 4ae6f0f8  (7.567484e+06)
+       B        = ce9f8b0c  (-1.338345e+09)
+       REF(real)= -1.012790e+16
+       expected = da0fed1a
+       result   = da0fed19
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=644 latency=2
+       A        = 3199b5ef  (4.473570e-09)
+       B        = c81d9549  (-1.613651e+05)
+       REF(real)= -7.218782e-04
+       expected = ba3d3c6d
+       result   = ba3d3c6c
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=645 latency=2
+       A        = 432d771e  (1.734653e+02)
+       B        = 45c387cd  (6.256975e+03)
+       REF(real)= 1.085368e+06
+       expected = 49847dc1
+       result   = 49847dc0
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=647 latency=2
+       A        = c4b3ef69  (-1.439482e+03)
+       B        = b6b24593  (-5.312913e-06)
+       REF(real)= 7.647840e-03
+       expected = 3bfa9abc
+       result   = 3bfa9abb
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=649 latency=2
+       A        = b18a783c  (-4.029998e-09)
+       B        = 4d1cdb86  (1.644770e+08)
+       REF(real)= -6.628420e-01
+       expected = bf29b004
+       result   = bf29b003
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=652 latency=2
+       A        = ca3bb68f  (-3.075492e+06)
+       B        = b2fe510b  (-2.960635e-08)
+       REF(real)= 9.105407e-02
+       expected = 3dba7a8f
+       result   = 3dba7a8e
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=654 latency=2
+       A        = c8ace0ad  (-3.540534e+05)
+       B        = 375376cd  (1.260424e-05)
+       REF(real)= -4.462574e+00
+       expected = c08ecd69
+       result   = c08ecd68
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=655 latency=2
+       A        = cdce3199  (-4.324196e+08)
+       B        = be5281c3  (-2.055731e-01)
+       REF(real)= 8.889385e+07
+       expected = 4ca98d34
+       result   = 4ca98d33
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=656 latency=2
+       A        = 34ae84b6  (3.250659e-07)
+       B        = c98b56c9  (-1.141465e+06)
+       REF(real)= -3.710513e-01
+       expected = bebdfa71
+       result   = bebdfa70
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=657 latency=2
+       A        = bcf46f09  (-2.983810e-02)
+       B        = 323607ea  (1.059559e-08)
+       REF(real)= -3.161524e-10
+       expected = afadce7f
+       result   = afadce7e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=658 latency=2
+       A        = 374f2433  (1.234659e-05)
+       B        = 3b85c058  (4.081767e-03)
+       REF(real)= 5.039590e-08
+       expected = 335872e2
+       result   = 335872e1
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=661 latency=2
+       A        = c975a163  (-1.006102e+06)
+       B        = b56f1f05  (-8.907958e-07)
+       REF(real)= 8.962316e-01
+       expected = 3f656f6f
+       result   = 3f656f6e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=664 latency=2
+       A        = 385d5b92  (5.277579e-05)
+       B        = 316cccd6  (3.445896e-09)
+       REF(real)= 1.818599e-13
+       expected = 2a4cc189
+       result   = 2a4cc188
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=666 latency=2
+       A        = b41e15de  (-1.472285e-07)
+       B        = 367eacb0  (3.794947e-06)
+       REF(real)= -5.587244e-13
+       expected = ab1d4456
+       result   = ab1d4455
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=667 latency=2
+       A        = b22c9552  (-1.004567e-08)
+       B        = 41077180  (8.465210e+00)
+       REF(real)= -8.503870e-08
+       expected = b3b69e85
+       result   = b3b69e84
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=668 latency=2
+       A        = c49fa0b2  (-1.277022e+03)
+       B        = ccb47fa1  (-9.463322e+07)
+       REF(real)= 1.208487e+11
+       expected = 51e11925
+       result   = 51e11924
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=672 latency=2
+       A        = 364bfb14  (3.039550e-06)
+       B        = b186ff37  (-3.928928e-09)
+       REF(real)= -1.194217e-14
+       expected = a857218f
+       result   = a857218e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=673 latency=2
+       A        = 451f9be5  (2.553743e+03)
+       B        = c10ff330  (-8.996872e+00)
+       REF(real)= -2.297570e+04
+       expected = c6b37f68
+       result   = c6b37f67
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=674 latency=2
+       A        = b84110da  (-4.603048e-05)
+       B        = ccc9966b  (-1.056899e+08)
+       REF(real)= 4.864959e+03
+       expected = 459807ac
+       result   = 459807ab
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=675 latency=2
+       A        = cf53a4e0  (-3.550798e+09)
+       B        = c1591347  (-1.356721e+01)
+       REF(real)= 4.817441e+10
+       expected = 513376b2
+       result   = 513376b1
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=676 latency=2
+       A        = 3f938911  (1.152620e+00)
+       B        = 3323efbf  (3.816944e-08)
+       REF(real)= 4.399488e-08
+       expected = 333cf4e2
+       result   = 333cf4e1
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=677 latency=2
+       A        = 451d7905  (2.519564e+03)
+       B        = 32c82704  (2.330081e-08)
+       REF(real)= 5.870787e-05
+       expected = 38763d18
+       result   = 38763d17
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=679 latency=2
+       A        = 3347fd06  (4.656342e-08)
+       B        = bd98dfc5  (-7.464556e-02)
+       REF(real)= -3.475753e-09
+       expected = b16eda16
+       result   = b16eda15
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=680 latency=2
+       A        = 3d5368cb  (5.161361e-02)
+       B        = cb66edee  (-1.513419e+07)
+       REF(real)= -7.811302e+05
+       expected = c93eb4a3
+       result   = c93eb4a2
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=681 latency=2
+       A        = 38c2d272  (9.289839e-05)
+       B        = 395ab26b  (2.085657e-04)
+       REF(real)= 1.937541e-08
+       expected = 32a66efd
+       result   = 32a66efc
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=685 latency=2
+       A        = 3977c93b  (2.363072e-04)
+       B        = caca3415  (-6.625802e+06)
+       REF(real)= -1.565725e+03
+       expected = c4c3b732
+       result   = c4c3b731
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=688 latency=2
+       A        = 320ca00d  (8.185464e-09)
+       B        = 3b5996d6  (3.320148e-03)
+       REF(real)= 2.717695e-11
+       expected = 2def0d0d
+       result   = 2def0d0c
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=689 latency=2
+       A        = 4f7079c9  (4.034513e+09)
+       B        = 34d54f85  (3.973220e-07)
+       REF(real)= 1.603001e+03
+       expected = 44c86007
+       result   = 44c86006
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=690 latency=2
+       A        = 32672c0d  (1.345599e-08)
+       B        = 38095ded  (3.275082e-05)
+       REF(real)= 4.406946e-13
+       expected = 2af816c8
+       result   = 2af816c7
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=691 latency=2
+       A        = b125c902  (-2.412492e-09)
+       B        = 451fac9c  (2.554788e+03)
+       REF(real)= -6.163406e-06
+       expected = b6cecf41
+       result   = b6cecf40
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=692 latency=2
+       A        = c31c3ab2  (-1.562293e+02)
+       B        = 37cc8247  (2.437936e-05)
+       REF(real)= -3.808770e-03
+       expected = bb799c8e
+       result   = bb799c8d
+       GRS      = 111
+       OV/UF    = 0/0
+Progress op=10 : 700/1000
+[FAIL] op=10 case=702 latency=2
+       A        = b50bd305  (-5.208861e-07)
+       B        = 348496f2  (2.469674e-07)
+       REF(real)= -1.286419e-13
+       expected = aa10d681
+       result   = aa10d680
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=704 latency=2
+       A        = 3fb8761f  (1.441105e+00)
+       B        = 346b217a  (2.189826e-07)
+       REF(real)= 3.155769e-07
+       expected = 34a96c8e
+       result   = 34a96c8d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=709 latency=2
+       A        = 41ac3c07  (2.152931e+01)
+       B        = baa28666  (-1.239967e-03)
+       REF(real)= -2.669564e-02
+       expected = bcdab0d1
+       result   = bcdab0d0
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=717 latency=2
+       A        = 43983aa9  (3.044583e+02)
+       B        = ba6c04f7  (-9.003425e-04)
+       REF(real)= -2.741167e-01
+       expected = be8c5908
+       result   = be8c5907
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=718 latency=2
+       A        = 399a8234  (2.947018e-04)
+       B        = b7c3830f  (-2.330684e-05)
+       REF(real)= -6.868567e-09
+       expected = b1ec008f
+       result   = b1ec008e
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=722 latency=2
+       A        = b8eff43b  (-1.144190e-04)
+       B        = 4a1cba79  (2.567838e+06)
+       REF(real)= -2.938095e+02
+       expected = c392e79d
+       result   = c392e79c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=723 latency=2
+       A        = 37b61f78  (2.171074e-05)
+       B        = ba463091  (-7.560338e-04)
+       REF(real)= -1.641406e-08
+       expected = b28cfee4
+       result   = b28cfee3
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=724 latency=2
+       A        = c3ad2f20  (-3.463682e+02)
+       B        = ca707d36  (-3.940174e+06)
+       REF(real)= 1.364751e+09
+       expected = 4ea2b0e3
+       result   = 4ea2b0e2
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=725 latency=2
+       A        = b9a324ba  (-3.111715e-04)
+       B        = b373dd7d  (-5.677929e-08)
+       REF(real)= 1.766809e-11
+       expected = 2d9b6903
+       result   = 2d9b6902
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=729 latency=2
+       A        = b1c402c5  (-5.704666e-09)
+       B        = 38973d06  (7.211608e-05)
+       REF(real)= -4.113981e-13
+       expected = aae798b7
+       result   = aae798b6
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=730 latency=2
+       A        = 35db4731  (1.633749e-06)
+       B        = b7d18656  (-2.497730e-05)
+       REF(real)= -4.080664e-11
+       expected = ae337830
+       result   = ae33782f
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=731 latency=2
+       A        = 3463e24d  (2.122335e-07)
+       B        = be87976f  (-2.648272e-01)
+       REF(real)= -5.620521e-08
+       expected = b3716648
+       result   = b3716647
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=732 latency=2
+       A        = 432b2876  (1.711581e+02)
+       B        = babe91d8  (-1.453931e-03)
+       REF(real)= -2.488521e-01
+       expected = be7ed314
+       result   = be7ed313
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=734 latency=2
+       A        = 43436242  (1.953838e+02)
+       B        = 485c5c22  (2.256485e+05)
+       REF(real)= 4.408807e+07
+       expected = 4c282ec2
+       result   = 4c282ec1
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=737 latency=2
+       A        = 3b952e0e  (4.552609e-03)
+       B        = b23a0180  (-1.082697e-08)
+       REF(real)= -4.929095e-11
+       expected = ae58c8ac
+       result   = ae58c8ab
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=738 latency=2
+       A        = b1e2a363  (-6.596041e-09)
+       B        = b1c0506f  (-5.597080e-09)
+       REF(real)= 3.691856e-17
+       expected = 242a41c0
+       result   = 242a41bf
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=740 latency=2
+       A        = c2457060  (-4.935974e+01)
+       B        = cc3be0c7  (-4.925110e+07)
+       REF(real)= 2.431022e+09
+       expected = 4f10e672
+       result   = 4f10e671
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=743 latency=2
+       A        = 427858ee  (6.208685e+01)
+       B        = 43835606  (2.626721e+02)
+       REF(real)= 1.630848e+04
+       expected = 467ed1eb
+       result   = 467ed1ea
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=744 latency=2
+       A        = bd4381b1  (-4.773111e-02)
+       B        = 3bcccfc3  (6.250353e-03)
+       REF(real)= -2.983363e-04
+       expected = b99c6a04
+       result   = b99c6a03
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=747 latency=2
+       A        = ba186c16  (-5.814446e-04)
+       B        = c1e6b952  (-2.884049e+01)
+       REF(real)= 1.676915e-02
+       expected = 3c895f73
+       result   = 3c895f72
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=748 latency=2
+       A        = b7b50579  (-2.157943e-05)
+       B        = 33d56c3a  (9.938272e-08)
+       REF(real)= -2.144622e-12
+       expected = ac16ea15
+       result   = ac16ea14
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=750 latency=2
+       A        = 3d4e72f4  (5.040260e-02)
+       B        = 35372767  (6.823015e-07)
+       REF(real)= 3.438977e-08
+       expected = 3313b3f3
+       result   = 3313b3f2
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=751 latency=2
+       A        = 43e2ab14  (4.533365e+02)
+       B        = 3e70e26a  (2.352387e-01)
+       REF(real)= 1.066423e+02
+       expected = 42d548dc
+       result   = 42d548db
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=753 latency=2
+       A        = cd4ccc6e  (-2.147468e+08)
+       B        = cdbd1c08  (-3.965914e+08)
+       REF(real)= 8.516674e+16
+       expected = 5b97495a
+       result   = 5b974959
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=755 latency=2
+       A        = 3ee134c2  (4.398556e-01)
+       B        = 38ee74ff  (1.137052e-04)
+       REF(real)= 5.001386e-05
+       expected = 3851c5f9
+       result   = 3851c5f8
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=760 latency=2
+       A        = 452d7e59  (2.775897e+03)
+       B        = 400da064  (2.212914e+00)
+       REF(real)= 6.142822e+03
+       expected = 45bff694
+       result   = 45bff693
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=761 latency=2
+       A        = 42153d84  (3.731007e+01)
+       B        = b0277446  (-6.091948e-10)
+       REF(real)= -2.272910e-08
+       expected = b2c33dd4
+       result   = b2c33dd3
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=764 latency=2
+       A        = ccb80eec  (-9.649955e+07)
+       B        = b6d139da  (-6.235420e-06)
+       REF(real)= 6.017153e+02
+       expected = 44166dc7
+       result   = 44166dc6
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=765 latency=2
+       A        = 4d1c8fa8  (1.641663e+08)
+       B        = ccf182cf  (-1.266213e+08)
+       REF(real)= -2.078695e+16
+       expected = da93b33d
+       result   = da93b33c
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=771 latency=2
+       A        = 4554c747  (3.404455e+03)
+       B        = b8573dcd  (-5.131755e-05)
+       REF(real)= -1.747083e-01
+       expected = be32e6bb
+       result   = be32e6ba
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=772 latency=2
+       A        = 46fd8426  (3.245007e+04)
+       B        = 32cd7aa6  (2.392092e-08)
+       REF(real)= 7.762355e-04
+       expected = 3a4b7c48
+       result   = 3a4b7c47
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=773 latency=2
+       A        = 3c2601ff  (1.013231e-02)
+       B        = 3b588473  (3.303793e-03)
+       REF(real)= 3.347506e-05
+       expected = 380c6793
+       result   = 380c6792
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=774 latency=2
+       A        = b72ca59a  (-1.029056e-05)
+       B        = 3bfe7842  (7.765801e-03)
+       REF(real)= -7.991441e-08
+       expected = b3ab9d69
+       result   = b3ab9d68
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=775 latency=2
+       A        = bf94a8fb  (-1.161407e+00)
+       B        = c18730aa  (-1.689876e+01)
+       REF(real)= 1.962634e+01
+       expected = 419d02be
+       result   = 419d02bd
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=777 latency=2
+       A        = bc546233  (-1.296287e-02)
+       B        = bd06b90e  (-3.289133e-02)
+       REF(real)= 4.263658e-04
+       expected = 39df89db
+       result   = 39df89da
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=778 latency=2
+       A        = 4d2723ee  (1.752594e+08)
+       B        = 422702de  (4.175280e+01)
+       REF(real)= 7.317569e+09
+       expected = 4fda149f
+       result   = 4fda149e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=781 latency=2
+       A        = b5655f41  (-8.544776e-07)
+       B        = c4a0e288  (-1.287079e+03)
+       REF(real)= 1.099780e-03
+       expected = 3a902681
+       result   = 3a902680
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=782 latency=2
+       A        = 372b228e  (1.020044e-05)
+       B        = 39528d0c  (2.007970e-04)
+       REF(real)= 2.048218e-09
+       expected = 310cc0a3
+       result   = 310cc0a2
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=783 latency=2
+       A        = 48b9a990  (3.802365e+05)
+       B        = cad92f7d  (-7.116734e+06)
+       REF(real)= -2.706042e+12
+       expected = d41d832c
+       result   = d41d832b
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=784 latency=2
+       A        = 32b3767f  (2.089223e-08)
+       B        = c0aadb15  (-5.339243e+00)
+       REF(real)= -1.115487e-07
+       expected = b3ef8c8b
+       result   = b3ef8c8a
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=785 latency=2
+       A        = c7ad1784  (-8.862303e+04)
+       B        = b285a3b5  (-1.555768e-08)
+       REF(real)= 1.378769e-03
+       expected = 3ab4b7d0
+       result   = 3ab4b7cf
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=786 latency=2
+       A        = 43d3c7e5  (4.235617e+02)
+       B        = c372b4b0  (-2.427058e+02)
+       REF(real)= -1.028009e+05
+       expected = c7c8c871
+       result   = c7c8c870
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=788 latency=2
+       A        = 342d5730  (1.614360e-07)
+       B        = 33e3af6e  (1.060242e-07)
+       REF(real)= 1.711612e-14
+       expected = 289a2b19
+       result   = 289a2b18
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=790 latency=2
+       A        = 4b282db3  (1.102175e+07)
+       B        = 42d51c78  (1.065556e+02)
+       REF(real)= 1.174429e+09
+       expected = 4e8c00ba
+       result   = 4e8c00b9
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=791 latency=2
+       A        = b43fd746  (-1.786658e-07)
+       B        = b648c61e  (-2.991764e-06)
+       REF(real)= 5.345259e-13
+       expected = 2b1674a6
+       result   = 2b1674a5
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=793 latency=2
+       A        = 40ad375f  (5.413009e+00)
+       B        = b4556bb8  (-1.987636e-07)
+       REF(real)= -1.075909e-06
+       expected = b59067f5
+       result   = b59067f4
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=794 latency=2
+       A        = 339b774b  (7.239449e-08)
+       B        = c12362f1  (-1.021166e+01)
+       REF(real)= -7.392676e-07
+       expected = b5467216
+       result   = b5467215
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=797 latency=2
+       A        = 3f09e136  (5.385927e-01)
+       B        = bd29b293  (-4.143007e-02)
+       REF(real)= -2.231393e-02
+       expected = bcb6cbb5
+       result   = bcb6cbb4
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=799 latency=2
+       A        = b208319f  (-7.927524e-09)
+       B        = 350afa29  (5.177304e-07)
+       REF(real)= -4.104320e-15
+       expected = a793dfac
+       result   = a793dfab
+       GRS      = 111
+       OV/UF    = 0/0
+Progress op=10 : 800/1000
+[FAIL] op=10 case=802 latency=2
+       A        = 49473337  (8.159234e+05)
+       B        = 40f60b26  (7.688861e+00)
+       REF(real)= 6.273522e+06
+       expected = 4abf73e4
+       result   = 4abf73e3
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=806 latency=2
+       A        = cc81e5a5  (-6.810346e+07)
+       B        = 4299af5a  (7.684248e+01)
+       REF(real)= -5.233239e+09
+       expected = cf9bf673
+       result   = cf9bf672
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=807 latency=2
+       A        = c633b76d  (-1.150186e+04)
+       B        = 4c94cc89  (7.801351e+07)
+       REF(real)= -8.973002e+11
+       expected = d350eb43
+       result   = d350eb42
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=808 latency=2
+       A        = 4626984c  (1.066207e+04)
+       B        = 4b61b3ed  (1.479166e+07)
+       REF(real)= 1.577098e+11
+       expected = 5212e0f2
+       result   = 5212e0f1
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=811 latency=2
+       A        = bcf579d3  (-2.996532e-02)
+       B        = 3d8f9e35  (7.012597e-02)
+       REF(real)= -2.101347e-03
+       expected = bb09b6c1
+       result   = bb09b6c0
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=812 latency=2
+       A        = 3ee84c2c  (4.537061e-01)
+       B        = b1323ea5  (-2.593802e-09)
+       REF(real)= -1.176824e-09
+       expected = b0a1bdcf
+       result   = b0a1bdce
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=827 latency=2
+       A        = c4d775d4  (-1.723682e+03)
+       B        = bf8cf1a7  (-1.101125e+00)
+       REF(real)= 1.897989e+03
+       expected = 44ed3fa5
+       result   = 44ed3fa4
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=828 latency=2
+       A        = 3ca0165f  (1.954192e-02)
+       B        = 4851cccc  (2.148352e+05)
+       REF(real)= 4.198291e+03
+       expected = 45833255
+       result   = 45833254
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=830 latency=2
+       A        = c41e92f7  (-6.342963e+02)
+       B        = b1122c23  (-2.127089e-09)
+       REF(real)= 1.349204e-06
+       expected = 35b51650
+       result   = 35b5164f
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=833 latency=2
+       A        = c4102f03  (-5.767346e+02)
+       B        = 4df037d3  (5.037738e+08)
+       REF(real)= -2.905438e+11
+       expected = d2874b84
+       result   = d2874b83
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=834 latency=2
+       A        = b6529bb0  (-3.138306e-06)
+       B        = 3a18898a  (5.818835e-04)
+       REF(real)= -1.826128e-09
+       expected = b0fafb2f
+       result   = b0fafb2e
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=835 latency=2
+       A        = c325f55c  (-1.659584e+02)
+       B        = 43fec523  (5.095401e+02)
+       REF(real)= -8.456248e+04
+       expected = c7a5293e
+       result   = c7a5293d
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=836 latency=2
+       A        = c2ebec2f  (-1.179613e+02)
+       B        = 433bec9b  (1.879242e+02)
+       REF(real)= -2.216779e+04
+       expected = c6ad2f93
+       result   = c6ad2f92
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=839 latency=2
+       A        = 401584e6  (2.336236e+00)
+       B        = b26c28ad  (-1.374626e-08)
+       REF(real)= -3.211451e-08
+       expected = b309ee46
+       result   = b309ee45
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=840 latency=2
+       A        = b8e345c4  (-1.083720e-04)
+       B        = b58dc22b  (-1.056183e-06)
+       REF(real)= 1.144606e-10
+       expected = 2efbb39c
+       result   = 2efbb39b
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=841 latency=2
+       A        = 44a1d6c2  (1.294711e+03)
+       B        = 42ee261c  (1.190744e+02)
+       REF(real)= 1.541670e+05
+       expected = 48168dc0
+       result   = 48168dbf
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=842 latency=2
+       A        = 38f99207  (1.190044e-04)
+       B        = 39681e9c  (2.213665e-04)
+       REF(real)= 2.634359e-08
+       expected = 32e24a2e
+       result   = 32e24a2d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=844 latency=2
+       A        = b8b91139  (-8.824695e-05)
+       B        = b7de4911  (-2.649849e-05)
+       REF(real)= 2.338411e-09
+       expected = 3120b1c2
+       result   = 3120b1c1
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=845 latency=2
+       A        = 41ed8365  (2.968916e+01)
+       B        = ca6cc0a3  (-3.878953e+06)
+       REF(real)= -1.151628e+08
+       expected = ccdba7db
+       result   = ccdba7da
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=846 latency=2
+       A        = 4c5ec3df  (5.839654e+07)
+       B        = 388096b9  (6.131590e-05)
+       REF(real)= 3.580636e+03
+       expected = 455fca2f
+       result   = 455fca2e
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=847 latency=2
+       A        = 4d5fe746  (2.347797e+08)
+       B        = bbf7042a  (-7.538338e-03)
+       REF(real)= -1.769849e+06
+       expected = c9d80bc9
+       result   = c9d80bc8
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=850 latency=2
+       A        = 3afa96d4  (1.911844e-03)
+       B        = 3a07ae73  (5.175836e-04)
+       REF(real)= 9.895390e-07
+       expected = 3584d04d
+       result   = 3584d04c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=851 latency=2
+       A        = b802f700  (-3.122445e-05)
+       B        = c5f1bd29  (-7.735645e+03)
+       REF(real)= 2.415413e-01
+       expected = 3e775699
+       result   = 3e775698
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=852 latency=2
+       A        = 3b807fae  (3.921471e-03)
+       B        = bde5e1f3  (-1.122474e-01)
+       REF(real)= -4.401748e-04
+       expected = b9e6c742
+       result   = b9e6c741
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=854 latency=2
+       A        = c1942d6c  (-1.852218e+01)
+       B        = ca8b074c  (-4.555686e+06)
+       REF(real)= 8.438123e+07
+       expected = 4ca0f1c6
+       result   = 4ca0f1c5
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=858 latency=2
+       A        = 415ea6ce  (1.391572e+01)
+       B        = 37743cf4  (1.455773e-05)
+       REF(real)= 2.025813e-04
+       expected = 39546c00
+       result   = 39546bff
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=859 latency=2
+       A        = 30d37b1c  (1.538726e-09)
+       B        = b25ce46c  (-1.285762e-08)
+       REF(real)= -1.978436e-17
+       expected = a3b67a7f
+       result   = a3b67a7e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=862 latency=2
+       A        = 3e79236b  (2.432992e-01)
+       B        = c608f243  (-8.764565e+03)
+       REF(real)= -2.132412e+03
+       expected = c5054696
+       result   = c5054695
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=863 latency=2
+       A        = ce912ce0  (-1.217819e+09)
+       B        = c99293e5  (-1.200765e+06)
+       REF(real)= 1.462314e+15
+       expected = 58a63eed
+       result   = 58a63eec
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=864 latency=2
+       A        = 47d624cb  (1.096416e+05)
+       B        = b500066e  (-4.769307e-07)
+       REF(real)= -5.229144e-02
+       expected = bd562f8d
+       result   = bd562f8c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=866 latency=2
+       A        = c1eec3f9  (-2.984569e+01)
+       B        = 306ac605  (8.541011e-10)
+       REF(real)= -2.549124e-08
+       expected = b2daf7d2
+       result   = b2daf7d1
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=867 latency=2
+       A        = 3ea6ab43  (3.255254e-01)
+       B        = c345266a  (-1.971501e+02)
+       REF(real)= -6.417735e+01
+       expected = c2805acd
+       result   = c2805acc
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=868 latency=2
+       A        = 39a2430b  (3.094900e-04)
+       B        = b598c4fe  (-1.138221e-06)
+       REF(real)= -3.522682e-10
+       expected = afc1a956
+       result   = afc1a955
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=869 latency=2
+       A        = b4834714  (-2.445237e-07)
+       B        = ca2ca316  (-2.828486e+06)
+       REF(real)= 6.916317e-01
+       expected = 3f310ec6
+       result   = 3f310ec5
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=870 latency=2
+       A        = 3836a4d6  (4.354570e-05)
+       B        = 411759bb  (9.459407e+00)
+       REF(real)= 4.119165e-04
+       expected = 39d7f67e
+       result   = 39d7f67d
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=871 latency=2
+       A        = 307a1385  (9.097721e-10)
+       B        = b3cd43a2  (-9.558359e-08)
+       REF(real)= -8.695928e-17
+       expected = a4c883b3
+       result   = a4c883b2
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=873 latency=2
+       A        = b882b0c4  (-6.231808e-05)
+       B        = 3cde7dcf  (2.715960e-02)
+       REF(real)= -1.692534e-06
+       expected = b5e32b08
+       result   = b5e32b07
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=874 latency=2
+       A        = 4bb3ebc8  (2.358261e+07)
+       B        = 3de84a24  (1.134227e-01)
+       REF(real)= 2.674802e+06
+       expected = 4a2341c9
+       result   = 4a2341c8
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=875 latency=2
+       A        = 3c7d87e7  (1.547430e-02)
+       B        = b1ff870e  (-7.436831e-09)
+       REF(real)= -1.150797e-10
+       expected = aefd1020
+       result   = aefd101f
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=876 latency=2
+       A        = 46ae9423  (2.234607e+04)
+       B        = c2de1380  (-1.110381e+02)
+       REF(real)= -2.481265e+06
+       expected = ca1771c3
+       result   = ca1771c2
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=878 latency=2
+       A        = 42b5b220  (9.084790e+01)
+       B        = 33933dbd  (6.856451e-08)
+       REF(real)= 6.228942e-06
+       expected = 36d10234
+       result   = 36d10233
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=880 latency=2
+       A        = b52d0a2d  (-6.446233e-07)
+       B        = b415df2d  (-1.395790e-07)
+       REF(real)= 8.997586e-14
+       expected = 29ca9b8d
+       result   = 29ca9b8c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=884 latency=2
+       A        = ba993545  (-1.168885e-03)
+       B        = 3c3c9a63  (1.151142e-02)
+       REF(real)= -1.345552e-05
+       expected = b761bf08
+       result   = b761bf07
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=889 latency=2
+       A        = c81da751  (-1.614373e+05)
+       B        = cc11d1d6  (-3.822575e+07)
+       REF(real)= 6.171061e+12
+       expected = 54b399fd
+       result   = 54b399fc
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=891 latency=2
+       A        = bcfa40a2  (-3.054840e-02)
+       B        = bafe9757  (-1.942376e-03)
+       REF(real)= 5.933649e-05
+       expected = 3878e012
+       result   = 3878e011
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=893 latency=2
+       A        = b8aa566c  (-8.122329e-05)
+       B        = b1f4bfaf  (-7.123127e-09)
+       REF(real)= 5.785638e-13
+       expected = 2b22d9ea
+       result   = 2b22d9e9
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=898 latency=2
+       A        = 38dbab87  (1.047468e-04)
+       B        = cc2cc208  (-4.528746e+07)
+       REF(real)= -4.743718e+03
+       expected = c5943dbe
+       result   = c5943dbd
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=899 latency=2
+       A        = 34e22128  (4.211990e-07)
+       B        = c12d4b11  (-1.083083e+01)
+       REF(real)= -4.561934e-06
+       expected = b69912b7
+       result   = b69912b6
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=900 latency=2
+       A        = c8ad56b1  (-3.549975e+05)
+       B        = 31b95f04  (5.395011e-09)
+       REF(real)= -1.915215e-03
+       expected = bafb07f8
+       result   = bafb07f7
+       GRS      = 101
+       OV/UF    = 0/0
+Progress op=10 : 900/1000
+[FAIL] op=10 case=903 latency=2
+       A        = 4ea160ed  (1.353742e+09)
+       B        = cc781f71  (-6.504391e+07)
+       REF(real)= -8.805267e+16
+       expected = db9c69b8
+       result   = db9c69b7
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=904 latency=2
+       A        = b732deba  (-1.066148e-05)
+       B        = 4e6924a6  (9.778733e+08)
+       REF(real)= -1.042558e+04
+       expected = c622e653
+       result   = c622e652
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=908 latency=2
+       A        = 3b08d8d7  (2.088120e-03)
+       B        = b1f19b38  (-7.031669e-09)
+       REF(real)= -1.468297e-11
+       expected = ad81271c
+       result   = ad81271b
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=910 latency=2
+       A        = c4b5624c  (-1.451072e+03)
+       B        = b2cda008  (-2.393791e-08)
+       REF(real)= 3.473563e-05
+       expected = 3811b11a
+       result   = 3811b119
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=911 latency=2
+       A        = 4cd12229  (1.096462e+08)
+       B        = 40fbdbd2  (7.870584e+00)
+       REF(real)= 8.629792e+08
+       expected = 4e4dc012
+       result   = 4e4dc011
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=912 latency=2
+       A        = 3b846796  (4.040669e-03)
+       B        = 30066039  (4.888566e-10)
+       REF(real)= 1.975307e-12
+       expected = 2c0afffa
+       result   = 2c0afff9
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=913 latency=2
+       A        = 30d1c02d  (1.526137e-09)
+       B        = c4314181  (-7.090235e+02)
+       REF(real)= -1.082067e-06
+       expected = b5913b8b
+       result   = b5913b8a
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=916 latency=2
+       A        = 3926a8fd  (1.589395e-04)
+       B        = c8f713f9  (-5.060158e+05)
+       REF(real)= -8.042588e+01
+       expected = c2a0da0d
+       result   = c2a0da0c
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=917 latency=2
+       A        = 310db30d  (2.061998e-09)
+       B        = bf8c1950  (-1.094522e+00)
+       REF(real)= -2.256903e-09
+       expected = b11b17dc
+       result   = b11b17db
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=921 latency=2
+       A        = 4e50a0d3  (8.750502e+08)
+       B        = bb36c82a  (-2.789030e-03)
+       REF(real)= -2.440541e+06
+       expected = ca14f576
+       result   = ca14f575
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=924 latency=2
+       A        = c9bfc2f7  (-1.570911e+06)
+       B        = cdb6c8eb  (-3.833276e+08)
+       REF(real)= 6.021735e+14
+       expected = 5808eb1c
+       result   = 5808eb1b
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=925 latency=2
+       A        = 3f52a909  (8.228918e-01)
+       B        = c043eed2  (-3.061451e+00)
+       REF(real)= -2.519243e+00
+       expected = c0213b48
+       result   = c0213b47
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=926 latency=2
+       A        = b5888405  (-1.017121e-06)
+       B        = 374dbc69  (1.226282e-05)
+       REF(real)= -1.247277e-11
+       expected = ad5b6c62
+       result   = ad5b6c61
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=927 latency=2
+       A        = 3c65288e  (1.398672e-02)
+       B        = 498128b1  (1.058070e+06)
+       REF(real)= 1.479893e+04
+       expected = 46673bb9
+       result   = 46673bb8
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=928 latency=2
+       A        = c894dde4  (-3.048791e+05)
+       B        = cdb10913  (-3.712702e+08)
+       REF(real)= 1.131925e+14
+       expected = 56cde563
+       result   = 56cde562
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=929 latency=2
+       A        = 4397eced  (3.038510e+02)
+       B        = ba822d6a  (-9.931747e-04)
+       REF(real)= -3.017771e-01
+       expected = be9a8288
+       result   = be9a8287
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=933 latency=2
+       A        = 4af08ada  (7.882093e+06)
+       B        = b57c20ce  (-9.392505e-07)
+       REF(real)= -7.403260e+00
+       expected = c0ece782
+       result   = c0ece781
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=934 latency=2
+       A        = 454e66a0  (3.302414e+03)
+       B        = bb7403aa  (-3.723363e-03)
+       REF(real)= -1.229609e+01
+       expected = c144bcc5
+       result   = c144bcc4
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=935 latency=2
+       A        = b0cb6e3c  (-1.480152e-09)
+       B        = b12cb9a6  (-2.513482e-09)
+       REF(real)= 3.720337e-18
+       expected = 22894197
+       result   = 22894196
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=937 latency=2
+       A        = bc78a516  (-1.517608e-02)
+       B        = 3e786cd8  (2.426027e-01)
+       REF(real)= -3.681758e-03
+       expected = bb7149a5
+       result   = bb7149a4
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=939 latency=2
+       A        = 413092d6  (1.103585e+01)
+       B        = ceb66db4  (-1.530321e+09)
+       REF(real)= -1.688840e+10
+       expected = d07ba81e
+       result   = d07ba81d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=940 latency=2
+       A        = c007dcc1  (-2.122849e+00)
+       B        = 39d8e500  (4.136935e-04)
+       REF(real)= -8.782087e-04
+       expected = ba663797
+       result   = ba663796
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=941 latency=2
+       A        = 37985bf6  (1.816263e-05)
+       B        = ce79af75  (-1.047256e+09)
+       REF(real)= -1.902094e+04
+       expected = c69499df
+       result   = c69499de
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=942 latency=2
+       A        = 3c9dd568  (1.926680e-02)
+       B        = c0efc7d9  (-7.493145e+00)
+       REF(real)= -1.443689e-01
+       expected = be13d573
+       result   = be13d572
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=945 latency=2
+       A        = 4003cb67  (2.059290e+00)
+       B        = 3a3e88a7  (7.268288e-04)
+       REF(real)= 1.496751e-03
+       expected = 3ac42ea1
+       result   = 3ac42ea0
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=946 latency=2
+       A        = 46826ee5  (1.669545e+04)
+       B        = c75d4797  (-5.664759e+04)
+       REF(real)= -9.457568e+08
+       expected = ce617c6b
+       result   = ce617c6a
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=949 latency=2
+       A        = b4bb15da  (-3.484736e-07)
+       B        = 43c1995f  (3.871982e+02)
+       REF(real)= -1.349284e-04
+       expected = b90d7b8f
+       result   = b90d7b8e
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=950 latency=2
+       A        = 4b9fcfda  (2.094687e+07)
+       B        = 395e0666  (2.117395e-04)
+       REF(real)= 4.435280e+03
+       expected = 458a9a3e
+       result   = 458a9a3d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=952 latency=2
+       A        = b876094d  (-5.865963e-05)
+       B        = 490c873e  (5.756039e+05)
+       REF(real)= -3.376471e+01
+       expected = c2070f11
+       result   = c2070f10
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=953 latency=2
+       A        = b30a5a8d  (-3.221298e-08)
+       B        = bab9813d  (-1.415290e-03)
+       REF(real)= 4.559070e-11
+       expected = 2e488291
+       result   = 2e488290
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=960 latency=2
+       A        = 37e759f9  (2.757924e-05)
+       B        = bd732bf6  (-5.936810e-02)
+       REF(real)= -1.637327e-06
+       expected = b5dbc222
+       result   = b5dbc221
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=962 latency=2
+       A        = 31a7bbc3  (4.881686e-09)
+       B        = bcffffdb  (-3.124993e-02)
+       REF(real)= -1.525523e-10
+       expected = af27bbab
+       result   = af27bbaa
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=963 latency=2
+       A        = b2094c31  (-7.991773e-09)
+       B        = b1e2d069  (-6.601159e-09)
+       REF(real)= 5.275497e-17
+       expected = 24734a13
+       result   = 24734a12
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=964 latency=2
+       A        = b841be0f  (-4.619179e-05)
+       B        = bd45d115  (-4.829510e-02)
+       REF(real)= 2.230837e-06
+       expected = 3615b57e
+       result   = 3615b57d
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=966 latency=2
+       A        = 479f678a  (8.161508e+04)
+       B        = bf45f9d4  (-7.733433e-01)
+       REF(real)= -6.311648e+04
+       expected = c7768c7a
+       result   = c7768c79
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=968 latency=2
+       A        = b8f5761e  (-1.170451e-04)
+       B        = c3f38839  (-4.870642e+02)
+       REF(real)= 5.700849e-02
+       expected = 3d6981bc
+       result   = 3d6981bb
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=969 latency=2
+       A        = 3e8dc1d9  (2.768696e-01)
+       B        = 47a20334  (8.295041e+04)
+       REF(real)= 2.296644e+04
+       expected = 46b36ce3
+       result   = 46b36ce2
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=970 latency=2
+       A        = 40a7724e  (5.232703e+00)
+       B        = bd67538d  (-5.647616e-02)
+       REF(real)= -2.955230e-01
+       expected = be974ecb
+       result   = be974eca
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=971 latency=2
+       A        = 405a3858  (3.409689e+00)
+       B        = 385c7f95  (5.257091e-05)
+       REF(real)= 1.792504e-04
+       expected = 393bf52d
+       result   = 393bf52c
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=972 latency=2
+       A        = 36eba0cd  (7.022265e-06)
+       B        = 4853ef1e  (2.170205e+05)
+       REF(real)= 1.523975e+00
+       expected = 3fc311a0
+       result   = 3fc3119f
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=973 latency=2
+       A        = c0aecd60  (-5.462570e+00)
+       B        = 42c97ecc  (1.007477e+02)
+       REF(real)= -5.503411e+02
+       expected = c40995d5
+       result   = c40995d4
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=977 latency=2
+       A        = bcec947d  (-2.887940e-02)
+       B        = be998f1a  (-2.999199e-01)
+       REF(real)= 8.661506e-03
+       expected = 3c0de8fe
+       result   = 3c0de8fd
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=978 latency=2
+       A        = bb113714  (-2.215807e-03)
+       B        = b56ea466  (-8.890114e-07)
+       REF(real)= 1.969878e-09
+       expected = 31075e76
+       result   = 31075e75
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=979 latency=2
+       A        = 4e7bd1ea  (1.056210e+09)
+       B        = c9394bf2  (-7.589751e+05)
+       REF(real)= -8.016368e+14
+       expected = d8364567
+       result   = d8364566
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=980 latency=2
+       A        = cb9fd182  (-2.094772e+07)
+       B        = 361746b5  (2.254191e-06)
+       REF(real)= -4.722015e+01
+       expected = c23ce170
+       result   = c23ce16f
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=984 latency=2
+       A        = c20c14a7  (-3.502017e+01)
+       B        = 49b579ac  (1.486646e+06)
+       REF(real)= -5.206258e+07
+       expected = cc469a5c
+       result   = cc469a5b
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=985 latency=2
+       A        = c78ad536  (-7.108242e+04)
+       B        = b3d9f611  (-1.014961e-07)
+       REF(real)= 7.214588e-03
+       expected = 3bec685a
+       result   = 3bec6859
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=986 latency=2
+       A        = 396e08a3  (2.270067e-04)
+       B        = b712f107  (-8.758397e-06)
+       REF(real)= -1.988214e-09
+       expected = b108a10a
+       result   = b108a109
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=987 latency=2
+       A        = cb6f15d0  (-1.566869e+07)
+       B        = c9ce31c4  (-1.689144e+06)
+       REF(real)= 2.646668e+13
+       expected = 55c09208
+       result   = 55c09207
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=988 latency=2
+       A        = 4d174a2c  (1.586388e+08)
+       B        = 4dfcda18  (5.302689e+08)
+       REF(real)= 8.412122e+16
+       expected = 5b956de7
+       result   = 5b956de6
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=989 latency=2
+       A        = 390f8dc8  (1.369036e-04)
+       B        = bbb38dac  (-5.479535e-03)
+       REF(real)= -7.501681e-07
+       expected = b5495f29
+       result   = b5495f28
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=991 latency=2
+       A        = ba0426af  (-5.041165e-04)
+       B        = bf56bfe0  (-8.388653e-01)
+       REF(real)= 4.228858e-04
+       expected = 39ddb6c6
+       result   = 39ddb6c5
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=992 latency=2
+       A        = b8869511  (-6.417384e-05)
+       B        = cbd10a03  (-2.739917e+07)
+       REF(real)= 1.758310e+03
+       expected = 44dbc9ed
+       result   = 44dbc9ec
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=993 latency=2
+       A        = 3f798090  (9.746180e-01)
+       B        = ce883bf8  (-1.142816e+09)
+       REF(real)= -1.113809e+09
+       expected = ce84c6bf
+       result   = ce84c6be
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=995 latency=2
+       A        = 487503b4  (2.508948e+05)
+       B        = bd3034d0  (-4.301912e-02)
+       REF(real)= -1.079327e+04
+       expected = c628a518
+       result   = c628a517
+       GRS      = 101
+       OV/UF    = 0/0
+[FAIL] op=10 case=997 latency=2
+       A        = b7d8d19e  (-2.584682e-05)
+       B        = 3ea29f02  (3.176194e-01)
+       REF(real)= -8.209450e-06
+       expected = b709bb52
+       result   = b709bb51
+       GRS      = 111
+       OV/UF    = 0/0
+[FAIL] op=10 case=1000 latency=2
+       A        = c081e342  (-4.058991e+00)
+       B        = cbba5974  (-2.442519e+07)
+       REF(real)= 9.914165e+07
+       expected = 4cbd1902
+       result   = 4cbd1901
+       GRS      = 101
+       OV/UF    = 0/0
+Progress op=10 : 1000/1000
+
+===============================================================
+                    FPU RANDOM TEST SUMMARY
+===============================================================
+ADD : PASS=947 FAIL=53 TOTAL=1000
+SUB : PASS=947 FAIL=53 TOTAL=1000
+MUL : PASS=500 FAIL=500 TOTAL=1000
+---------------------------------------------------------------
+TOTAL: PASS=2394 FAIL=606 TESTS=3000
+Timeouts      : 0
+Protocol fails: 0
+---------------------------------------------------------------
+Latency ADD: avg=8.071000 cycles  max=13
+Latency SUB: avg=8.071000 cycles  max=12
+Latency MUL: avg=2.000000 cycles  max=2
+===============================================================
+
+TESTBENCH RESULT: FAIL
+/home/matheus/Documentos/FPU/FPU_single_precision_3_ops/testbenchs/top/testbench.sv:575: $finish called at 241476000 (1ps)

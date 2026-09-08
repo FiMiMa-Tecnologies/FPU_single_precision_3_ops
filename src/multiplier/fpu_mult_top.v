@@ -11,7 +11,7 @@ module fpu_mult_top #(
 )(
     //Entradas
     input   wire                clk, rst,
-    input   wire    [1:0]        op,
+    input   wire    [1:0]       op,
     input   wire    [E_WID:0]   a_e, b_e,
     input   wire                a_s, b_s,
     input   wire    [I_WID:0]   a_m, b_m,
