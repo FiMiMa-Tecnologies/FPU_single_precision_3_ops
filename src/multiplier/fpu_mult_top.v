@@ -46,10 +46,11 @@ fpu_mult_exp_calc #(
                 .EXP_WID        (EXP_WID),
                 .E_WID          (E_WID)
                 ) fpu_me (
-                .a_e            (a_e), 
+                .a_e            (a_e),
                 .b_e            (b_e),
                 .clk            (clk),
                 .rst            (rst),
+                .norm_inc       (r_w[R_WID]),
                 .exp_final      (exp_w),
                 .overflow       (overflow),
                 .underflow      (underflow)
