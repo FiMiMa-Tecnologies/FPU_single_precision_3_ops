@@ -289,6 +289,32 @@ module testbench;
     /* REFERENCE OPERATION                                                    */
     /* ---------------------------------------------------------------------- */
 
+    // Exact integer reference for normalized operands in the configured range.
+    // MUL exports a truncated result plus GRS, without final rounding.
+    // Packed return value: {result[31:0], guard, round, sticky}.
+    function automatic logic [34:0] reference_mult(
+        input logic [31:0] a_bits,
+        input logic [31:0] b_bits
+    );
+        longint unsigned product;
+        integer shift, exponent;
+        logic [31:0] truncated;
+        logic [2:0] grs;
+        begin
+            product = (64'd8388608 + a_bits[22:0]) *
+                      (64'd8388608 + b_bits[22:0]);
+            shift = (product >= (64'd1 << 47)) ? 24 : 23;
+            exponent = int'(a_bits[30:23]) + int'(b_bits[30:23]) - 127 + (shift == 24);
+            truncated = (product >> shift) & 32'h007fffff;
+            truncated[31] = a_bits[31] ^ b_bits[31];
+            truncated[30:23] = exponent[7:0];
+            grs[2] = (product >> (shift - 1)) & 1;
+            grs[1] = (product >> (shift - 2)) & 1;
+            grs[0] = (product % (64'd1 << (shift - 2))) != 0;
+            reference_mult = {truncated, grs};
+        end
+    endfunction
+
     function automatic logic [31:0] reference_result(
         input logic [1:0]  operation,
         input logic [31:0] a_bits,
@@ -308,7 +334,10 @@ module testbench;
                 default: r_real = 0.0;
             endcase
 
-            reference_result = real_to_fp32(r_real);
+            if (operation == MUL)
+                reference_result = reference_mult(a_bits, b_bits) >> 3;
+            else
+                reference_result = real_to_fp32(r_real);
         end
     endfunction
 
@@ -345,6 +374,8 @@ module testbench;
         logic [31:0] operand_a;
         logic [31:0] operand_b;
         logic [31:0] expected;
+        logic [34:0] mult_reference;
+        logic [2:0] expected_grs;
         integer      cycles;
         bit          case_ok;
         real         a_real_dbg;
@@ -354,6 +385,8 @@ module testbench;
             operand_a = random_fp32_normal();
             operand_b = random_fp32_normal();
             expected  = reference_result(operation, operand_a, operand_b);
+            mult_reference = reference_mult(operand_a, operand_b);
+            expected_grs = (operation == MUL) ? mult_reference[2:0] : 3'b000;
 
             issue_operation(operation, operand_a, operand_b);
 
@@ -392,11 +425,9 @@ module testbench;
                 if ((overflow !== 1'b0) || (underflow !== 1'b0))
                     case_ok = 1'b0;
 
-                // README requirement: ADD/SUB must export GRS as zero.
-                if ((operation == ADD) || (operation == SUB)) begin
-                    if ({guard, round, sticky} !== 3'b000)
-                        case_ok = 1'b0;
-                end
+                // MUL: exact discarded bits. ADD/SUB: GRS must be zero.
+                if ({guard, round, sticky} !== expected_grs)
+                    case_ok = 1'b0;
 
                 if (!case_ok) begin
                     a_real_dbg = fp32_to_real(operand_a);
@@ -415,7 +446,7 @@ module testbench;
                     $display("       REF(real)= %e", r_real_dbg);
                     $display("       expected = %08h", expected);
                     $display("       result   = %08h", result);
-                    $display("       GRS      = %b%b%b", guard, round, sticky);
+                    $display("       GRS      = %b%b%b (expected %03b)", guard, round, sticky, expected_grs);
                     $display("       OV/UF    = %b/%b", overflow, underflow);
                 end
                 else if (VERBOSE) begin
